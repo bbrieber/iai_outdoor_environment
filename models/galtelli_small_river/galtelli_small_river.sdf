@@ -12,6 +12,9 @@
           </geometry>
       </collision>
       <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+         <transparency>0.5</transparency>
+	
 	<geometry>
             <mesh>
 	      <uri>model://galtelli_small_river/galtelli_small_river.dae</uri>
