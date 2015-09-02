@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<package>
+  <name>iai_outdoor_environment</name>
+  <version>0.0.0</version>
+  <description>The iai_outdoor_environment package contains a set of worlds and models used for the at the IAI-Bremen</description>
+  <maintainer email="bbrieber@cs.informatik.uni-bremen.de">Benjamin Brieber</maintainer>
+  <author email="bbrieber@cs.informatik.uni-bremen.de">Benjamin Brieber</author>
+
+  <license>GPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+
+
+  <export>
+    <gazebo_ros 
+		plugin_path="${prefix}/lib" 
+		gazebo_media_path="${prefix}/resource:${prefix}/resource/Media" 
+		gazebo_resource_path="${prefix}:${prefix}/resource" 
+		gazebo_model_path="${prefix}/models" />
+  </export>
+</package>

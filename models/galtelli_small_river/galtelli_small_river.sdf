@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="river">
+    <static>true</static>
+
+    <link name="river">
+      <collision name="collision">
+	<geometry>
+            <mesh>
+	      <uri>model://galtelli_small_river/galtelli_small_river.dae</uri>
+	    </mesh>
+          </geometry>
+      </collision>
+      <visual name="visual">
+	<geometry>
+            <mesh>
+	      <uri>model://galtelli_small_river/galtelli_small_river.dae</uri>
+	    </mesh>
+          </geometry>
+        <material>
+          <script>
+            <uri>file://materials/scripts/iai-rescue-galtelli.material</uri>
+	     <name>IAI/River</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    
+  </model>
+</sdf>

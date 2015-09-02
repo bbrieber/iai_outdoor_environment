@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="galtelli_small_avalanche">
+    <static>true</static>
+
+    <link name="galtelli_small_avalanche">
+      <collision name="collision">
+	<geometry>
+            <mesh>
+	      <uri>model://galtelli_small_avalanche/galtelli_small_avalanche.dae</uri>
+	    </mesh>
+          </geometry>
+      </collision>
+      <visual name="visual">
+	<geometry>
+            <mesh>
+	      <uri>model://galtelli_small_avalanche/galtelli_small_avalanche.dae</uri>
+	    </mesh>
+          </geometry>
+        <material>
+          <script>
+            <uri>file://materials/scripts/iai-rescue-galtelli.material</uri>
+	     <name>IAI/GaltelliSmallAvalanche</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    
+  </model>
+</sdf>

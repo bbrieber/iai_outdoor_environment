@@ -1,0 +1,51 @@
+material IAI/River
+{
+  technique
+  {
+    pass
+    {
+      scene_blend colour_blend
+      depth_write off
+
+      texture_unit
+      {
+	texture water.png
+	scroll_anim 0.0  0.1 
+      }
+    }
+  }
+}
+
+
+
+material IAI/GaltelliSmallAvalanche
+ {
+    technique
+    {
+       pass
+       {
+          scene_blend colour_blend
+          specular 0.1 0.1 0.1 0
+          texture_unit
+          {
+            texture Avalanche.png
+          }
+       }
+    }
+ }
+ 
+ material IAI/GaltelliSmall
+ {
+    technique
+    {
+       pass
+       {
+          scene_blend colour_blend
+          specular 0.1 0.1 0.1 0
+          texture_unit
+          {
+            texture Map_diffuse.png
+          }
+       }
+    }
+ }
