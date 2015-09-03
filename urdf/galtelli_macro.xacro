@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+
+<robot name="galtelli" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="galtelli_macro" params="name fixed_frame *origin">
+    <gazebo>
+      <static>true</static>
+    </gazebo>
+    <link name="${name}_mountains">
+      <!--MAIN_BODY-->
+      <visual>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small/galtelli_small.stl"/>
+	</geometry>
+	<material name="IAI_RESCUE/mountain_grey">
+	  <color rgba="0.5 0.55 0.55 1.0"/>
+	</material>
+<!--
+	Example for Material definition
+	-->
+<!--	
+	
+	<material name="IAI_RESCUE/lost_victim">
+	<color rgba="0.31 0.15 0.033 1.0"/>
+      </material>
+-->
+      </visual>
+      <collision>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small/galtelli_small.stl"/>
+	</geometry>
+      </collision>
+      <inertial>
+	<mass value=".1"/>
+	<origin xyz="0 0 0"/>
+	<inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      </inertial>
+    </link>
+    <joint name="${name}_mountains_${fixed_frame}_joint"  type="fixed">
+        <xacro:insert_block name="origin" />
+	<parent link="${fixed_frame}"/>
+	<child link="${name}_mountains"/>
+    </joint>
+    
+    <link name="${name}_river">
+      <!--MAIN_BODY-->
+      <visual>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small_river/galtelli_small_river.stl"/>
+	</geometry>
+	<material name="IAI_RESCUE/river">
+	  <color rgba="0.66 0.836 0.920 1.0"/>
+	</material>
+      </visual>
+      <collision>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small_river/galtelli_small_river.stl"/>
+	</geometry>
+      </collision>
+      <inertial>
+	<mass value=".1"/>
+	<origin xyz="0 0 0"/>
+	<inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      </inertial>
+    </link>
+    <joint name="${name}_river_${fixed_frame}_joint"  type="fixed">
+        <xacro:insert_block name="origin" />
+	<parent link="${fixed_frame}"/>
+	<child link="${name}_river"/>
+    </joint>
+    
+    <link name="${name}_avalanche">
+      <!--MAIN_BODY-->
+      <visual>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small_avalanche/galtelli_small_avalanche.stl"/>
+	</geometry>
+	<material name="IAI_RESCUE/avalanche_grey">
+	  <color rgba="0.85 0.85 0.85 1.0"/>
+	</material>
+<!--
+	Example for Material definition
+	-->
+<!--	
+	
+	<material name="IAI_RESCUE/lost_victim">
+	<color rgba="0.31 0.15 0.033 1.0"/>
+      </material>
+-->
+      </visual>
+      <collision>
+	<origin rpy="0 0 0" xyz="0 0 0"/>
+	<geometry>
+	  <mesh filename="package://iai_outdoor_environment/models/galtelli_small_avalanche/galtelli_small_avalanche.stl"/>
+	</geometry>
+      </collision>
+      <inertial>
+	<mass value=".1"/>
+	<origin xyz="0 0 0"/>
+	<inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      </inertial>
+    </link>
+    <joint name="${name}_avalanche_${fixed_frame}_joint"  type="fixed">
+        <xacro:insert_block name="origin" />
+	<parent link="${fixed_frame}"/>
+	<child link="${name}_avalanche"/>
+    </joint>
+  </xacro:macro>
+</robot>
+ 

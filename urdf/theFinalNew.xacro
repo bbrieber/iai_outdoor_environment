@@ -1,0 +1,3294 @@
+<?xml version="1.0" ?>
+<robot name="iai_outdoor_models" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find iai_outdoor_models)/urdf/iai_outdoor_models.xacro" />
+    <xacro:include filename="$(find iai_outdoor_environment)/urdf/galtelli_macro.xacro" />
+    
+    <link name="world"/>
+    <xacro:galtelli_macro name="galtelli" fixed_frame="world">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </xacro:galtelli_macro>
+    
+    
+    
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.300" fixed_frame="world">
+        <origin xyz="89.42707824707031 92.21614837646484 -16.292625427246094" rpy="0.0 0.0 3.589690244861353"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.299" fixed_frame="world">
+        <origin xyz="89.11224365234375 90.947509765625 -16.1036376953125" rpy="0.0 0.0 0.11843002537729319"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.298" fixed_frame="world">
+        <origin xyz="83.91387176513672 91.99253845214844 -16.343090057373047" rpy="0.0 0.0 4.136799320596451"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.297" fixed_frame="world">
+        <origin xyz="86.08314514160156 91.45732116699219 -16.46808624267578" rpy="0.0 0.0 1.1152809908241124"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.296" fixed_frame="world">
+        <origin xyz="85.0306167602539 82.78424072265625 -13.750694274902344" rpy="0.0 0.0 -1.526525511400956"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.295" fixed_frame="world">
+        <origin xyz="87.51473236083984 83.51766967773438 -14.237593650817871" rpy="0.0 0.0 -2.7528780317246158"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.294" fixed_frame="world">
+        <origin xyz="79.97125244140625 94.24639892578125 -17.394153594970703" rpy="0.0 0.0 -2.4944011548727536"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.293" fixed_frame="world">
+        <origin xyz="80.94898223876953 90.947509765625 -16.366384506225586" rpy="0.0 0.0 2.6778712969897227"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.292" fixed_frame="world">
+        <origin xyz="79.74764251708984 87.51472473144531 -15.751153945922852" rpy="0.0 0.0 2.950021868048601"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.291" fixed_frame="world">
+        <origin xyz="82.00151062011719 87.37568664550781 -15.163013458251953" rpy="0.0 0.0 -0.4543708926313448"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.290" fixed_frame="world">
+        <origin xyz="80.94898223876953 82.78424072265625 -13.882071495056152" rpy="0.0 0.0 -1.8275923103302896"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.289" fixed_frame="world">
+        <origin xyz="79.74764251708984 83.43309020996094 -14.237594604492188" rpy="0.0 0.0 -0.7479043546916255"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.288" fixed_frame="world">
+        <origin xyz="83.2940673828125 81.26380157470703 -13.529407501220703" rpy="0.0 0.0 1.4882698959357925"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.287" fixed_frame="world">
+        <origin xyz="82.31634521484375 80.48106384277344 -13.529407501220703" rpy="0.0 0.0 2.0576003313901112"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.286" fixed_frame="world">
+        <origin xyz="79.83223724365234 79.74763488769531 -13.875371932983398" rpy="0.0 0.0 3.2741793313617973"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.285" fixed_frame="world">
+        <origin xyz="79.97125244140625 77.91986083984375 -13.848661422729492" rpy="0.0 0.0 2.3221056570823495"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.284" fixed_frame="world">
+        <origin xyz="78.23470306396484 80.48106384277344 -14.182351112365723" rpy="0.0 0.0 0.8022848661586179"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.283" fixed_frame="world">
+        <origin xyz="75.35440826416016 79.83222961425781 -14.389852523803711" rpy="0.0 0.0 2.85008431555961"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.282" fixed_frame="world">
+        <origin xyz="73.83824157714844 79.2124252319336 -14.63500690460205" rpy="0.0 0.0 2.8119077196205287"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.281" fixed_frame="world">
+        <origin xyz="74.153076171875 76.39942932128906 -14.574505805969238" rpy="0.0 0.0 -1.239515560816216"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.280" fixed_frame="world">
+        <origin xyz="75.35440826416016 71.66896057128906 -13.674116134643555" rpy="0.0 0.0 0.16095273421770262"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.279" fixed_frame="world">
+        <origin xyz="41.18517303466797 91.45732116699219 -14.958163261413574" rpy="0.0 0.0 0.3033682536178719"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.278" fixed_frame="world">
+        <origin xyz="49.66327667236328 92.72596740722656 -14.961904525756836" rpy="0.0 0.0 -0.9178743598460084"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.277" fixed_frame="world">
+        <origin xyz="47.094581604003906 91.59635925292969 -14.961906433105469" rpy="0.0 0.0 2.4161614768017086"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.276" fixed_frame="world">
+        <origin xyz="49.34843826293945 91.45732116699219 -14.961904525756836" rpy="0.0 0.0 0.832149582927713"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.275" fixed_frame="world">
+        <origin xyz="50.13117980957031 86.39796447753906 -14.961904525756836" rpy="0.0 0.0 -2.968744780895712"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.274" fixed_frame="world">
+        <origin xyz="43.0129508972168 95.67798614501953 -14.946807861328125" rpy="0.0 0.0 0.5907430118613699"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.273" fixed_frame="world">
+        <origin xyz="43.2365608215332 94.24639892578125 -14.857776641845703" rpy="0.0 0.0 2.0095682276814935"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.272" fixed_frame="world">
+        <origin xyz="45.58164596557617 96.8075942993164 -14.961904525756836" rpy="0.0 0.0 1.0201532257015606"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.271" fixed_frame="world">
+        <origin xyz="-75.26982116699219 -83.51768493652344 -11.306279182434082" rpy="0.0 0.0 -3.126860891404289"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.270" fixed_frame="world">
+        <origin xyz="-77.18217468261719 -79.97125244140625 -11.126957893371582" rpy="0.0 0.0 0.43545269496291494"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.269" fixed_frame="world">
+        <origin xyz="-78.7026138305664 -82.31634521484375 -11.903030395507812" rpy="0.0 0.0 -0.9733375325871965"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.268" fixed_frame="world">
+        <origin xyz="-79.74764251708984 -79.35145568847656 -11.541572570800781" rpy="0.0 0.0 -1.270682063499396"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.267" fixed_frame="world">
+        <origin xyz="-79.97125244140625 -77.91986846923828 -11.264928817749023" rpy="0.0 0.0 -2.6074032480752862"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.266" fixed_frame="world">
+        <origin xyz="-76.86734008789062 -74.62097930908203 -9.735902786254883" rpy="0.0 0.0 2.7693558279127246"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.265" fixed_frame="world">
+        <origin xyz="-79.74763488769531 -75.26982116699219 -10.72186279296875" rpy="0.0 0.0 3.1341236388426643"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.264" fixed_frame="world">
+        <origin xyz="-85.34542846679688 -71.8079833984375 -10.056818008422852" rpy="0.0 0.0 -1.1172844657671992"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.263" fixed_frame="world">
+        <origin xyz="-84.56269073486328 -72.78571319580078 -10.152179718017578" rpy="0.0 0.0 -2.0320032412702647"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.262" fixed_frame="world">
+        <origin xyz="-71.58438110351562 -54.861663818359375 -2.774834394454956" rpy="0.0 0.0 -1.3848745046184276"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.261" fixed_frame="world">
+        <origin xyz="-75.13079071044922 -56.77401351928711 -4.3641767501831055" rpy="0.0 0.0 0.32119684649364366"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.260" fixed_frame="world">
+        <origin xyz="-72.78571319580078 -58.29445266723633 -3.371035575866699" rpy="0.0 0.0 3.715446778566156"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.259" fixed_frame="world">
+        <origin xyz="-75.35440826416016 -67.58732604980469 -5.767101287841797" rpy="0.0 0.0 2.7181970451752826"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.258" fixed_frame="world">
+        <origin xyz="-73.10054016113281 -67.72634887695312 -4.977562427520752" rpy="0.0 0.0 0.2625546436546107"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.257" fixed_frame="world">
+        <origin xyz="-76.86734008789062 -50.13117980957031 -5.6085710525512695" rpy="0.0 0.0 2.1786564536300594"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.256" fixed_frame="world">
+        <origin xyz="-75.66600799560547 -63.02492904663086 -4.936828136444092" rpy="0.0 0.0 -0.4220033141945718"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.255" fixed_frame="world">
+        <origin xyz="-79.2124252319336 -69.01891326904297 -8.605758666992188" rpy="0.0 0.0 1.422482237771677"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.254" fixed_frame="world">
+        <origin xyz="-82.31633758544922 -55.99127197265625 -7.3862714767456055" rpy="0.0 0.0 0.8550783481110735"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.253" fixed_frame="world">
+        <origin xyz="-79.83222961425781 -55.25784683227539 -6.931189060211182" rpy="0.0 0.0 0.9632750914157087"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.252" fixed_frame="world">
+        <origin xyz="-81.26380157470703 -63.64472579956055 -7.712904930114746" rpy="0.0 0.0 -1.6191417300939506"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.251" fixed_frame="world">
+        <origin xyz="-86.86587524414062 -49.66327667236328 -11.014547348022461" rpy="0.0 0.0 -2.6136471603807716"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.250" fixed_frame="world">
+        <origin xyz="-87.51472473144531 -54.946250915527344 -10.476075172424316" rpy="0.0 0.0 1.712424200709751"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.249" fixed_frame="world">
+        <origin xyz="-84.0528793334961 -57.51171112060547 -7.647051811218262" rpy="0.0 0.0 -2.236353326706647"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.248" fixed_frame="world">
+        <origin xyz="-86.39796447753906 -64.154541015625 -8.172552108764648" rpy="0.0 0.0 2.459339230349156"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.247" fixed_frame="world">
+        <origin xyz="-87.9954833984375 -63.42111587524414 -9.36180591583252" rpy="0.0 0.0 0.9945978342165209"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.246" fixed_frame="world">
+        <origin xyz="-90.16476440429688 -66.967529296875 -11.173340797424316" rpy="0.0 0.0 -1.2856813249091936"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.245" fixed_frame="world">
+        <origin xyz="-90.947509765625 -65.98980712890625 -11.815834999084473" rpy="0.0 0.0 -0.4032455037919709"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.244" fixed_frame="world">
+        <origin xyz="-91.99253845214844 -67.10655975341797 -13.359352111816406" rpy="0.0 0.0 0.5684753387644057"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.243" fixed_frame="world">
+        <origin xyz="-81.26380157470703 -43.23655700683594 -9.158968925476074" rpy="0.0 0.0 -1.1210065235267113"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.242" fixed_frame="world">
+        <origin xyz="-45.58164596557617 -80.48107147216797 -8.556352615356445" rpy="0.0 0.0 -0.8681326808535244"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.241" fixed_frame="world">
+        <origin xyz="-43.01294708251953 -83.43309783935547 -8.946660041809082" rpy="0.0 0.0 -2.6186062004072266"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.240" fixed_frame="world">
+        <origin xyz="-50.64099884033203 -77.18217468261719 -7.505744457244873" rpy="0.0 0.0 -2.308843887464123"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.239" fixed_frame="world">
+        <origin xyz="-48.29591369628906 -78.7026138305664 -8.088679313659668" rpy="0.0 0.0 -1.810518230602885"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.238" fixed_frame="world">
+        <origin xyz="-47.094581604003906 -79.35145568847656 -8.421850204467773" rpy="0.0 0.0 1.815651800077538"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.237" fixed_frame="world">
+        <origin xyz="-49.34843826293945 -87.37570190429688 -9.96954345703125" rpy="0.0 0.0 3.818391037242932"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.236" fixed_frame="world">
+        <origin xyz="-52.377540588378906 -82.78424835205078 -7.311040878295898" rpy="0.0 0.0 1.276828403323202"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.235" fixed_frame="world">
+        <origin xyz="-51.17620849609375 -83.43309783935547 -7.6977620124816895" rpy="0.0 0.0 -2.302663887918754"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.234" fixed_frame="world">
+        <origin xyz="-53.43006896972656 -83.2940673828125 -7.430402755737305" rpy="0.0 0.0 2.6508675040174237"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.233" fixed_frame="world">
+        <origin xyz="-51.909637451171875 -85.0306167602539 -8.352556228637695" rpy="0.0 0.0 3.3848549927000433"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.232" fixed_frame="world">
+        <origin xyz="-51.17620849609375 -87.51473236083984 -10.088422775268555" rpy="0.0 0.0 1.309899544930301"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.231" fixed_frame="world">
+        <origin xyz="-52.69237518310547 -88.134521484375 -10.253557205200195" rpy="0.0 0.0 -0.6672457074722606"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.230" fixed_frame="world">
+        <origin xyz="-54.21281433105469 -90.47960662841797 -11.212510108947754" rpy="0.0 0.0 1.590650812446634"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.229" fixed_frame="world">
+        <origin xyz="-55.34242630004883 -75.66600799560547 -6.088086128234863" rpy="0.0 0.0 -2.676752690470542"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.228" fixed_frame="world">
+        <origin xyz="-62.885902404785156 -77.18217468261719 -3.876816987991333" rpy="0.0 0.0 1.2465782918307249"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.227" fixed_frame="world">
+        <origin xyz="-61.908180236816406 -88.64434051513672 -9.869095802307129" rpy="0.0 0.0 2.0373723947687137"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.226" fixed_frame="world">
+        <origin xyz="-63.10951614379883 -87.99549865722656 -9.17190933227539" rpy="0.0 0.0 -0.6844573388894708"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.225" fixed_frame="world">
+        <origin xyz="-60.855648040771484 -88.134521484375 -9.176581382751465" rpy="0.0 0.0 -1.347155357872798"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.224" fixed_frame="world">
+        <origin xyz="-70.07144165039062 -76.39942932128906 -6.9730224609375" rpy="0.0 0.0 -1.355594632476372"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.223" fixed_frame="world">
+        <origin xyz="-59.02787780761719 -71.66896057128906 -3.1061768531799316" rpy="0.0 0.0 0.2300872100285134"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.222" fixed_frame="world">
+        <origin xyz="-50.64099884033203 -60.855648040771484 -1.239074945449829" rpy="0.0 0.0 -1.9341884120890027"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.221" fixed_frame="world">
+        <origin xyz="-47.828006744384766 -60.54081726074219 -1.8417315483093262" rpy="0.0 0.0 -1.402175645697225"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.220" fixed_frame="world">
+        <origin xyz="-47.179168701171875 -63.42111587524414 -1.4508455991744995" rpy="0.0 0.0 -1.6026540222004826"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.219" fixed_frame="world">
+        <origin xyz="-48.61074447631836 -63.64472579956055 -1.2055041790008545" rpy="0.0 0.0 1.1646862545792271"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.218" fixed_frame="world">
+        <origin xyz="-53.744903564453125 -64.154541015625 -1.4075629711151123" rpy="0.0 0.0 -0.2671001247718632"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.217" fixed_frame="world">
+        <origin xyz="-51.26079559326172 -63.42111587524414 -0.9301039576530457" rpy="0.0 0.0 0.1499082709691848"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.216" fixed_frame="world">
+        <origin xyz="-58.804256439208984 -48.61074447631836 2.5282111167907715" rpy="0.0 0.0 0.17654507356492122"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.215" fixed_frame="world">
+        <origin xyz="-58.29444122314453 -65.98980712890625 -2.4823827743530273" rpy="0.0 0.0 2.36646981096226"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.214" fixed_frame="world">
+        <origin xyz="-58.94329071044922 -71.27278137207031 -3.079345703125" rpy="0.0 0.0 -0.8676924071819982"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.213" fixed_frame="world">
+        <origin xyz="-59.56308364868164 -49.34843826293945 2.15397310256958" rpy="0.0 0.0 -1.0176155781936176"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.212" fixed_frame="world">
+        <origin xyz="-60.540802001953125 -58.29445266723633 -0.4348395764827728" rpy="0.0 0.0 -0.9220802202604057"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.211" fixed_frame="world">
+        <origin xyz="-63.42110824584961 -50.780025482177734 0.568420946598053" rpy="0.0 0.0 4.060599797910864"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.210" fixed_frame="world">
+        <origin xyz="-63.64472198486328 -61.593345642089844 -0.1504039317369461" rpy="0.0 0.0 1.6922462875607969"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.209" fixed_frame="world">
+        <origin xyz="-64.62244415283203 -62.3760871887207 -0.3763606548309326" rpy="0.0 0.0 1.8889473565770083"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.208" fixed_frame="world">
+        <origin xyz="-67.10655975341797 -63.10951614379883 -1.0519483089447021" rpy="0.0 0.0 2.908279598913278"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.207" fixed_frame="world">
+        <origin xyz="-65.67498016357422 -62.885902404785156 -0.6290749907493591" rpy="0.0 0.0 -0.824284276756134"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.206" fixed_frame="world">
+        <origin xyz="-68.7040786743164 -50.13117980957031 -2.222062110900879" rpy="0.0 0.0 2.696453591439272"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.205" fixed_frame="world">
+        <origin xyz="-71.27278137207031 -55.34243392944336 -2.694550037384033" rpy="0.0 0.0 -1.588406623436926"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.204" fixed_frame="world">
+        <origin xyz="-69.75660705566406 -58.80426788330078 -2.1536707878112793" rpy="0.0 0.0 -2.131626793752381"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.203" fixed_frame="world">
+        <origin xyz="-70.53934478759766 -65.98980712890625 -3.592668056488037" rpy="0.0 0.0 -0.5842802490976435"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.202" fixed_frame="world">
+        <origin xyz="-67.58732604980469 -67.50273895263672 -2.1727874279022217" rpy="0.0 0.0 3.032149872904706"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.201" fixed_frame="world">
+        <origin xyz="-59.56308364868164 -45.266807556152344 3.1695475578308105" rpy="0.0 0.0 3.4611062529140946"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.200" fixed_frame="world">
+        <origin xyz="-17.010210037231445 -88.64434051513672 -10.606141090393066" rpy="0.0 0.0 1.7838843580999328"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.199" fixed_frame="world">
+        <origin xyz="-18.60773468017578 -75.66600799560547 -6.110673427581787" rpy="0.0 0.0 0.965995596754134"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.198" fixed_frame="world">
+        <origin xyz="-18.74675941467285 -86.08314514160156 -9.44974422454834" rpy="0.0 0.0 2.813667927750227"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.197" fixed_frame="world">
+        <origin xyz="-21.559749603271484 -86.39797973632812 -9.724601745605469" rpy="0.0 0.0 -0.6239799408820677"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.196" fixed_frame="world">
+        <origin xyz="-22.208595275878906 -91.68094635009766 -13.092218399047852" rpy="0.0 0.0 -2.8427589673022426"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.195" fixed_frame="world">
+        <origin xyz="-24.120948791503906 -79.97125244140625 -5.857149124145508" rpy="0.0 0.0 0.39580381638232076"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.194" fixed_frame="world">
+        <origin xyz="-29.723018646240234 -78.23470306396484 -5.131331443786621" rpy="0.0 0.0 2.3680481975999528"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.193" fixed_frame="world">
+        <origin xyz="-34.84967803955078 -79.35145568847656 -8.785500526428223" rpy="0.0 0.0 1.9006841883063816"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.192" fixed_frame="world">
+        <origin xyz="-37.10354232788086 -87.37570190429688 -11.161941528320312" rpy="0.0 0.0 0.5083294927355038"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.191" fixed_frame="world">
+        <origin xyz="-40.13264465332031 -78.7026138305664 -9.375144958496094" rpy="0.0 0.0 3.7703607659179252"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.190" fixed_frame="world">
+        <origin xyz="-39.015899658203125 -79.74764251708984 -9.801219940185547" rpy="0.0 0.0 -0.5737554429579017"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.189" fixed_frame="world">
+        <origin xyz="-39.15492248535156 -86.08314514160156 -10.177980422973633" rpy="0.0 0.0 -2.4714443804596606"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.188" fixed_frame="world">
+        <origin xyz="-40.13264465332031 -86.86588287353516 -10.32718563079834" rpy="0.0 0.0 1.884068733123716"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.187" fixed_frame="world">
+        <origin xyz="-26.37481689453125 -71.66896057128906 -3.053842544555664" rpy="0.0 0.0 -2.7645863323711333"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.186" fixed_frame="world">
+        <origin xyz="-24.120948791503906 -71.8079833984375 -3.3196792602539062" rpy="0.0 0.0 -2.067415041124307"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.185" fixed_frame="world">
+        <origin xyz="-31.969383239746094 -74.62097930908203 -4.452788829803467" rpy="0.0 0.0 -0.8174432630703565"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.184" fixed_frame="world">
+        <origin xyz="-34.453495025634766 -75.35440826416016 -6.483214378356934" rpy="0.0 0.0 -1.386323326443674"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.183" fixed_frame="world">
+        <origin xyz="-35.07329177856445 -73.83824157714844 -3.417085647583008" rpy="0.0 0.0 -2.096859806477884"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.182" fixed_frame="world">
+        <origin xyz="-41.5000114440918 -72.31780242919922 -3.4105992317199707" rpy="0.0 0.0 0.904687165909285"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.181" fixed_frame="world">
+        <origin xyz="-39.015899658203125 -71.58438110351562 -1.9892513751983643" rpy="0.0 0.0 -2.9166772318770184"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.180" fixed_frame="world">
+        <origin xyz="-16.695377349853516 -54.72262954711914 -0.9352222084999084" rpy="0.0 0.0 -2.3893644368827296"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.179" fixed_frame="world">
+        <origin xyz="-17.478120803833008 -57.82654571533203 -3.7308003902435303" rpy="0.0 0.0 -0.5124269637117616"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.178" fixed_frame="world">
+        <origin xyz="-22.293182373046875 -51.26079559326172 2.0273277759552" rpy="0.0 0.0 0.5755775718249687"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.177" fixed_frame="world">
+        <origin xyz="-20.777009963989258 -62.885902404785156 -4.009334564208984" rpy="0.0 0.0 4.102483281277214"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.176" fixed_frame="world">
+        <origin xyz="-21.55975341796875 -61.908180236816406 -4.1498188972473145" rpy="0.0 0.0 2.5513008030286097"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.175" fixed_frame="world">
+        <origin xyz="-18.523147583007812 -67.10655975341797 -3.5276002883911133" rpy="0.0 0.0 -1.672290341764199"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.174" fixed_frame="world">
+        <origin xyz="-18.746761322021484 -69.75660705566406 -3.382383346557617" rpy="0.0 0.0 -0.5302420453198633"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.173" fixed_frame="world">
+        <origin xyz="-25.641387939453125 -57.82654571533203 -3.3048782348632812" rpy="0.0 0.0 -0.18883158513516785"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.172" fixed_frame="world">
+        <origin xyz="-22.689367294311523 -59.339481353759766 -4.147873401641846" rpy="0.0 0.0 3.2744909233546644"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.171" fixed_frame="world">
+        <origin xyz="-22.828393936157227 -61.593345642089844 -3.97230863571167" rpy="0.0 0.0 -2.5266874639356276"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.170" fixed_frame="world">
+        <origin xyz="-25.173479080200195 -64.154541015625 -2.739314317703247" rpy="0.0 0.0 -2.796925358594483"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.169" fixed_frame="world">
+        <origin xyz="-26.37481689453125 -67.58732604980469 -2.0035243034362793" rpy="0.0 0.0 0.2146287285011934"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.168" fixed_frame="world">
+        <origin xyz="-28.202585220336914 -55.4814567565918 -2.302764892578125" rpy="0.0 0.0 0.3776435400017437"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.167" fixed_frame="world">
+        <origin xyz="-29.255115509033203 -64.154541015625 -2.1398403644561768" rpy="0.0 0.0 0.9464412655407783"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.166" fixed_frame="world">
+        <origin xyz="-30.85263442993164 -63.42111587524414 -2.184209108352661" rpy="0.0 0.0 3.5530253136782703"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.165" fixed_frame="world">
+        <origin xyz="-38.396095275878906 -60.855648040771484 -2.7703819274902344" rpy="0.0 0.0 0.49261169305103625"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.164" fixed_frame="world">
+        <origin xyz="-35.583106994628906 -64.62244415283203 -1.43816339969635" rpy="0.0 0.0 3.4244801677340084"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.163" fixed_frame="world">
+        <origin xyz="-34.84967803955078 -67.10655975341797 -0.8513973355293274" rpy="0.0 0.0 0.6924048737766526"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.162" fixed_frame="world">
+        <origin xyz="-36.365848541259766 -67.72634887695312 -0.843956470489502" rpy="0.0 0.0 1.1488755050837764"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.161" fixed_frame="world">
+        <origin xyz="-35.583106994628906 -68.7040786743164 -0.8383665680885315" rpy="0.0 0.0 -1.2954987396538755"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.160" fixed_frame="world">
+        <origin xyz="-38.535125732421875 -71.27278137207031 -1.7147399187088013" rpy="0.0 0.0 3.8410840471612704"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.159" fixed_frame="world">
+        <origin xyz="-40.447479248046875 -51.39982223510742 -0.47392797470092773" rpy="0.0 0.0 -0.44373166279187126"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.158" fixed_frame="world">
+        <origin xyz="-40.13264465332031 -58.29445266723633 -3.6371560096740723" rpy="0.0 0.0 -0.16927793077613273"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.157" fixed_frame="world">
+        <origin xyz="-42.61676025390625 -59.02788543701172 -3.6663548946380615" rpy="0.0 0.0 -2.1637763261554266"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.156" fixed_frame="world">
+        <origin xyz="-40.447479248046875 -67.72634887695312 -1.2798850536346436" rpy="0.0 0.0 3.5040614795230627"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.155" fixed_frame="world">
+        <origin xyz="3.397951126098633 -76.39942932128906 -4.294596195220947" rpy="0.0 0.0 3.966084386188284"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.154" fixed_frame="world">
+        <origin xyz="5.882063865661621 -75.66600799560547 -3.071049928665161" rpy="0.0 0.0 -2.097515402291074"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.153" fixed_frame="world">
+        <origin xyz="5.743035793304443 -77.91986846923828 -3.6048147678375244" rpy="0.0 0.0 1.607085100955436"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.152" fixed_frame="world">
+        <origin xyz="2.930044412612915 -82.31634521484375 -5.234835147857666" rpy="0.0 0.0 -0.355958902792342"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.151" fixed_frame="world">
+        <origin xyz="5.966650009155273 -91.59635925292969 -4.583365440368652" rpy="0.0 0.0 3.7596502543689865"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.150" fixed_frame="world">
+        <origin xyz="0.3688473701477051 -84.05288696289062 -6.341132164001465" rpy="0.0 0.0 -1.8613210431215395"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.149" fixed_frame="world">
+        <origin xyz="-0.6836812496185303 -88.64434051513672 -7.682949066162109" rpy="0.0 0.0 -0.7492733072218929"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.148" fixed_frame="world">
+        <origin xyz="-5.882063865661621 -91.68094635009766 -9.515457153320312" rpy="0.0 0.0 3.270738552222053"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.147" fixed_frame="world">
+        <origin xyz="-6.501861572265625 -77.91986846923828 -6.5716447830200195" rpy="0.0 0.0 2.4636704874293653"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.146" fixed_frame="world">
+        <origin xyz="-9.31485366821289 -78.23470306396484 -7.070150852203369" rpy="0.0 0.0 -3.0826611508452717"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.145" fixed_frame="world">
+        <origin xyz="-10.048284530639648 -87.99549865722656 -10.226691246032715" rpy="0.0 0.0 3.706095518851878"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.144" fixed_frame="world">
+        <origin xyz="-6.501861572265625 -90.1647720336914 -9.698860168457031" rpy="0.0 0.0 -0.34333013377886124"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.143" fixed_frame="world">
+        <origin xyz="-11.09330940246582 -76.86734008789062 -6.048952102661133" rpy="0.0 0.0 -1.9390063696698807"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.142" fixed_frame="world">
+        <origin xyz="-14.045330047607422 -79.43605041503906 -8.306991577148438" rpy="0.0 0.0 -0.38069138813735215"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.141" fixed_frame="world">
+        <origin xyz="-11.87605094909668 -79.97125244140625 -8.354058265686035" rpy="0.0 0.0 -1.8229556049987858"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.140" fixed_frame="world">
+        <origin xyz="-13.396484375 -86.39797973632812 -9.45124340057373" rpy="0.0 0.0 2.7491087485402557"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.139" fixed_frame="world">
+        <origin xyz="5.882063865661621 -71.58438110351562 -2.6276233196258545" rpy="0.0 0.0 -0.47072455194297724"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.138" fixed_frame="world">
+        <origin xyz="0.3688473701477051 -71.8079833984375 -3.7540149688720703" rpy="0.0 0.0 1.0974135569400016"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.137" fixed_frame="world">
+        <origin xyz="-1.151587724685669 -74.153076171875 -4.577823162078857" rpy="0.0 0.0 3.411782066100146"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.136" fixed_frame="world">
+        <origin xyz="-1.800431251525879 -75.35440826416016 -5.178850173950195" rpy="0.0 0.0 -2.331647225381032"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.135" fixed_frame="world">
+        <origin xyz="-2.420228958129883 -73.83824157714844 -4.601149559020996" rpy="0.0 0.0 3.8215164663438563"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.134" fixed_frame="world">
+        <origin xyz="-8.846946716308594 -72.31780242919922 -2.9495956897735596" rpy="0.0 0.0 -0.37532543496220727"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.133" fixed_frame="world">
+        <origin xyz="-6.362833499908447 -71.58438110351562 -3.109971761703491" rpy="0.0 0.0 1.5218884226579008"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.132" fixed_frame="world">
+        <origin xyz="11.87605094909668 -62.885902404785156 0.25530844926834106" rpy="0.0 0.0 0.6106805056507985"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.131" fixed_frame="world">
+        <origin xyz="11.093310356140137 -70.07144165039062 -0.7700202465057373" rpy="0.0 0.0 0.4201144112226145"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.130" fixed_frame="world">
+        <origin xyz="6.278246879577637 -63.505699157714844 -1.4441908597946167" rpy="0.0 0.0 0.06033697902812829"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.129" fixed_frame="world">
+        <origin xyz="2.420228958129883 -64.93728637695312 -2.765293836593628" rpy="0.0 0.0 1.5792614917604602"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.128" fixed_frame="world">
+        <origin xyz="0.6836812496185303 -62.3760871887207 -3.4863195419311523" rpy="0.0 0.0 -2.7951417299165535"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.127" fixed_frame="world">
+        <origin xyz="1.800431251525879 -63.42111587524414 -2.9387707710266113" rpy="0.0 0.0 1.4686609549208876"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.126" fixed_frame="world">
+        <origin xyz="-5.743035793304443 -64.93728637695312 -4.314171314239502" rpy="0.0 0.0 1.2922777380380839"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.125" fixed_frame="world">
+        <origin xyz="-2.930044412612915 -68.7040786743164 -3.9706151485443115" rpy="0.0 0.0 -2.924042260498397"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.124" fixed_frame="world">
+        <origin xyz="-10.048284530639648 -51.26079559326172 2.2623822689056396" rpy="0.0 0.0 -0.011899852360988561"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.123" fixed_frame="world">
+        <origin xyz="-9.824668884277344 -56.77401351928711 -2.717982292175293" rpy="0.0 0.0 1.603833627184978"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.122" fixed_frame="world">
+        <origin xyz="-8.846946716308594 -60.07291030883789 -4.723870277404785" rpy="0.0 0.0 2.0400206093971707"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.121" fixed_frame="world">
+        <origin xyz="-10.359880447387695 -63.02492904663086 -4.578500270843506" rpy="0.0 0.0 1.35072224730072"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.120" fixed_frame="world">
+        <origin xyz="-12.613744735717773 -62.885902404785156 -4.774506568908691" rpy="0.0 0.0 -2.120913342064087"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.119" fixed_frame="world">
+        <origin xyz="-13.396484375 -70.07144165039062 -3.0045907497406006" rpy="0.0 0.0 -1.958128363742489"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.118" fixed_frame="world">
+        <origin xyz="34.453495025634766 -75.66600799560547 8.769784927368164" rpy="0.0 0.0 1.929244727843693"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.117" fixed_frame="world">
+        <origin xyz="33.021907806396484 -75.88961791992188 8.447457313537598" rpy="0.0 0.0 2.636575084218879"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.116" fixed_frame="world">
+        <origin xyz="27.88774871826172 -80.48107147216797 5.1607866287231445" rpy="0.0 0.0 -2.51203102676524"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.115" fixed_frame="world">
+        <origin xyz="26.7710018157959 -83.51768493652344 4.3024210929870605" rpy="0.0 0.0 1.0088098452472525"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.114" fixed_frame="world">
+        <origin xyz="24.120948791503906 -79.21243286132812 2.8884177207946777" rpy="0.0 0.0 -2.333987929578152"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.113" fixed_frame="world">
+        <origin xyz="25.641386032104492 -80.94898223876953 3.605039119720459" rpy="0.0 0.0 2.4332400047249805"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.112" fixed_frame="world">
+        <origin xyz="18.60773468017578 -79.43605041503906 1.0951699018478394" rpy="0.0 0.0 0.05841003398078559"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.111" fixed_frame="world">
+        <origin xyz="22.069568634033203 -86.08314514160156 2.795365810394287" rpy="0.0 0.0 3.384237842180007"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.110" fixed_frame="world">
+        <origin xyz="17.478120803833008 -76.86734008789062 0.9181171655654907" rpy="0.0 0.0 -0.3792837408354428"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.109" fixed_frame="world">
+        <origin xyz="14.52609920501709 -79.43605041503906 -0.11124278604984283" rpy="0.0 0.0 1.3827289089868358"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.108" fixed_frame="world">
+        <origin xyz="14.66512680053711 -81.2638168334961 -0.05026349425315857" rpy="0.0 0.0 1.4806198220820552"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.107" fixed_frame="world">
+        <origin xyz="17.01021385192871 -82.78424835205078 0.8509829640388489" rpy="0.0 0.0 -2.098805834141728"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.106" fixed_frame="world">
+        <origin xyz="18.126962661743164 -83.82927703857422 1.280168890953064" rpy="0.0 0.0 -1.0185620820394603"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.105" fixed_frame="world">
+        <origin xyz="15.957682609558105 -91.45732879638672 0.8386457562446594" rpy="0.0 0.0 0.4609528765132396"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.104" fixed_frame="world">
+        <origin xyz="31.969375610351562 -72.31780242919922 8.02053451538086" rpy="0.0 0.0 -3.123061843617417"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.103" fixed_frame="world">
+        <origin xyz="22.29317855834961 -75.26982116699219 2.8813040256500244" rpy="0.0 0.0 -1.9117582602008578"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.102" fixed_frame="world">
+        <origin xyz="40.447479248046875 -71.04916381835938 9.142783164978027" rpy="0.0 0.0 1.861387636390258"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.101" fixed_frame="world">
+        <origin xyz="31.969375610351562 -64.154541015625 7.384313106536865" rpy="0.0 0.0 0.22255190071037445"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.100" fixed_frame="world">
+        <origin xyz="30.768041610717773 -63.505699157714844 6.922623634338379" rpy="0.0 0.0 0.6342155669392877"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.099" fixed_frame="world">
+        <origin xyz="26.910024642944336 -56.77401351928711 5.419791221618652" rpy="0.0 0.0 -1.592809434738565"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.098" fixed_frame="world">
+        <origin xyz="29.255107879638672 -58.29445266723633 5.742749214172363" rpy="0.0 0.0 0.10196484846943443"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.097" fixed_frame="world">
+        <origin xyz="26.686412811279297 -59.424068450927734 5.255478858947754" rpy="0.0 0.0 -1.7876941251650593"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.096" fixed_frame="world">
+        <origin xyz="28.202579498291016 -62.885902404785156 5.170479774475098" rpy="0.0 0.0 0.5278167914643803"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.095" fixed_frame="world">
+        <origin xyz="29.72301483154297 -64.62244415283203 6.179258346557617" rpy="0.0 0.0 -1.5737862058459693"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.094" fixed_frame="world">
+        <origin xyz="26.374814987182617 -63.02492904663086 4.503673076629639" rpy="0.0 0.0 1.5080039812959405"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.093" fixed_frame="world">
+        <origin xyz="20.03931427001953 -58.80426788330078 3.407616138458252" rpy="0.0 0.0 0.5385259202434352"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.092" fixed_frame="world">
+        <origin xyz="15.642847061157227 -64.154541015625 1.4618949890136719" rpy="0.0 0.0 -2.4362188588043567"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.091" fixed_frame="world">
+        <origin xyz="18.211549758911133 -67.10655975341797 2.0969901084899902" rpy="0.0 0.0 1.3188881530065077"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.090" fixed_frame="world">
+        <origin xyz="14.66512680053711 -69.01891326904297 0.7320313453674316" rpy="0.0 0.0 0.7582944547352435"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.089" fixed_frame="world">
+        <origin xyz="40.13264465332031 1.151587724685669 0.4551122486591339" rpy="0.0 0.0 0.5556961988730671"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.088" fixed_frame="world">
+        <origin xyz="38.931312561035156 1.800431251525879 0.6322424411773682" rpy="0.0 0.0 1.2244816052496659"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.087" fixed_frame="world">
+        <origin xyz="42.47773361206055 -0.3688473701477051 0.05821548402309418" rpy="0.0 0.0 -0.2507520345319847"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.086" fixed_frame="world">
+        <origin xyz="41.967918395996094 -3.397951126098633 0.7121341824531555" rpy="0.0 0.0 -1.9674506095606603"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.085" fixed_frame="world">
+        <origin xyz="42.701351165771484 -5.882063865661621 0.609070897102356" rpy="0.0 0.0 0.9955883411607096"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.084" fixed_frame="world">
+        <origin xyz="40.447479248046875 -5.743035793304443 1.0278117656707764" rpy="0.0 0.0 1.1909920878895108"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.083" fixed_frame="world">
+        <origin xyz="41.967918395996094 -7.479583740234375 0.7679792642593384" rpy="0.0 0.0 0.4652592076618771"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.082" fixed_frame="world">
+        <origin xyz="38.931312561035156 -10.444467544555664 1.502875566482544" rpy="0.0 0.0 -1.7188924122394909"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.081" fixed_frame="world">
+        <origin xyz="41.18517303466797 -10.583494186401367 1.2433182001113892" rpy="0.0 0.0 3.4604522338136614"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.080" fixed_frame="world">
+        <origin xyz="37.418373107910156 7.011676788330078 0.3039337992668152" rpy="0.0 0.0 -1.884477191473182"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.079" fixed_frame="world">
+        <origin xyz="34.934261322021484 2.1966147422790527 1.6396950483322144" rpy="0.0 0.0 -0.1204954119837538"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.078" fixed_frame="world">
+        <origin xyz="36.3658447265625 -5.743035793304443 1.9227701425552368" rpy="0.0 0.0 -2.437269242150294"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.077" fixed_frame="world">
+        <origin xyz="37.88628387451172 -7.479583740234375 1.5828953981399536" rpy="0.0 0.0 0.2736761632920852"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.076" fixed_frame="world">
+        <origin xyz="30.768041610717773 5.882063865661621 2.8648741245269775" rpy="0.0 0.0 -0.16602006920216184"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.075" fixed_frame="world">
+        <origin xyz="33.02190399169922 5.743035793304443 2.0282082557678223" rpy="0.0 0.0 -2.949084764528797"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.074" fixed_frame="world">
+        <origin xyz="31.501468658447266 -0.6836812496185303 3.544132709503174" rpy="0.0 0.0 3.6820218589372335"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.073" fixed_frame="world">
+        <origin xyz="30.456445693969727 6.362833499908447 2.965475082397461" rpy="0.0 0.0 -1.5712596710163251"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.072" fixed_frame="world">
+        <origin xyz="28.202579498291016 6.501861572265625 3.5977933406829834" rpy="0.0 0.0 0.4889360989256972"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.071" fixed_frame="world">
+        <origin xyz="27.419837951660156 7.479582786560059 3.3520195484161377" rpy="0.0 0.0 -0.9547573507938676"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.070" fixed_frame="world">
+        <origin xyz="26.686412811279297 1.800431251525879 3.7879395484924316" rpy="0.0 0.0 2.125837459222915"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.069" fixed_frame="world">
+        <origin xyz="26.151199340820312 7.794417381286621 3.531909227371216" rpy="0.0 0.0 -1.4909624236908057"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.068" fixed_frame="world">
+        <origin xyz="27.887746810913086 17.478120803833008 -0.15467190742492676" rpy="0.0 0.0 0.526368212821303"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.067" fixed_frame="world">
+        <origin xyz="67.50273895263672 -47.179168701171875 9.645329475402832" rpy="0.0 0.0 0.9181831309679711"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.066" fixed_frame="world">
+        <origin xyz="71.04916381835938 -53.43006896972656 10.78228759765625" rpy="0.0 0.0 2.7832837322293718"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.065" fixed_frame="world">
+        <origin xyz="68.7040786743164 -55.99127197265625 10.521570205688477" rpy="0.0 0.0 -1.8755529080255735"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.064" fixed_frame="world">
+        <origin xyz="71.18820190429688 -55.25784683227539 11.152674674987793" rpy="0.0 0.0 -0.9206066718102672"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.063" fixed_frame="world">
+        <origin xyz="69.01891326904297 -58.80426788330078 10.642562866210938" rpy="0.0 0.0 -1.9024695046016922"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.062" fixed_frame="world">
+        <origin xyz="68.7040786743164 -60.07291030883789 10.521568298339844" rpy="0.0 0.0 1.6452117060283844"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.061" fixed_frame="world">
+        <origin xyz="67.50273895263672 -63.505699157714844 9.697653770446777" rpy="0.0 0.0 -0.42538756742000583"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.060" fixed_frame="world">
+        <origin xyz="67.72634887695312 -64.93728637695312 9.826560974121094" rpy="0.0 0.0 0.8892011915362183"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.059" fixed_frame="world">
+        <origin xyz="68.7040786743164 -64.154541015625 10.390192985534668" rpy="0.0 0.0 0.17006883830046338"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.058" fixed_frame="world">
+        <origin xyz="63.505699157714844 -50.8646125793457 9.239493370056152" rpy="0.0 0.0 -0.376774031780168"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.057" fixed_frame="world">
+        <origin xyz="63.64472579956055 -52.69237518310547 9.288595199584961" rpy="0.0 0.0 -0.9809199880129653"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.056" fixed_frame="world">
+        <origin xyz="64.154541015625 -53.744903564453125 9.386557579040527" rpy="0.0 0.0 1.93857637798761"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.055" fixed_frame="world">
+        <origin xyz="67.19114685058594 -58.94329833984375 9.970065116882324" rpy="0.0 0.0 -2.500786139989885"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.054" fixed_frame="world">
+        <origin xyz="65.67498016357422 -67.72634887695312 9.819539070129395" rpy="0.0 0.0 3.3952594805480554"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.053" fixed_frame="world">
+        <origin xyz="66.45771026611328 -68.7040786743164 9.553337097167969" rpy="0.0 0.0 1.2388726090931717"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.052" fixed_frame="world">
+        <origin xyz="59.424068450927734 -50.8646125793457 8.131597518920898" rpy="0.0 0.0 -2.579459576733921"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.051" fixed_frame="world">
+        <origin xyz="61.593345642089844 -51.39982223510742 8.89441204071045" rpy="0.0 0.0 -0.5595903559897861"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.050" fixed_frame="world">
+        <origin xyz="60.54081726074219 -55.99127197265625 8.692161560058594" rpy="0.0 0.0 1.2120693800479931"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.049" fixed_frame="world">
+        <origin xyz="63.10951614379883 -58.94329833984375 9.185751914978027" rpy="0.0 0.0 0.6393967710033239"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.048" fixed_frame="world">
+        <origin xyz="59.56309509277344 -60.855648040771484 8.559082984924316" rpy="0.0 0.0 3.166984439667053"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.047" fixed_frame="world">
+        <origin xyz="60.07291030883789 -61.908180236816406 8.714938163757324" rpy="0.0 0.0 2.6349701638346414"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.046" fixed_frame="world">
+        <origin xyz="63.02492904663086 -63.42111587524414 8.793600082397461" rpy="0.0 0.0 0.8182627172942389"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.045" fixed_frame="world">
+        <origin xyz="60.855648040771484 -66.967529296875 8.094005584716797" rpy="0.0 0.0 3.0319103840963533"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.044" fixed_frame="world">
+        <origin xyz="57.8265495300293 -50.13117980957031 7.778433322906494" rpy="0.0 0.0 -1.717013010045543"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.043" fixed_frame="world">
+        <origin xyz="58.94329833984375 -55.25784683227539 8.385183334350586" rpy="0.0 0.0 -0.9970823080664575"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.042" fixed_frame="world">
+        <origin xyz="55.4814567565918 -60.855648040771484 8.094005584716797" rpy="0.0 0.0 3.1196218999793888"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.041" fixed_frame="world">
+        <origin xyz="53.744903564453125 -54.21281433105469 7.534374713897705" rpy="0.0 0.0 -2.1639608799002357"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.040" fixed_frame="world">
+        <origin xyz="54.861663818359375 -59.339481353759766 8.039213180541992" rpy="0.0 0.0 3.3652352193947412"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.039" fixed_frame="world">
+        <origin xyz="59.56309509277344 -44.52911376953125 8.205172538757324" rpy="0.0 0.0 -0.6643927356003609"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.038" fixed_frame="world">
+        <origin xyz="56.45918273925781 -43.746376037597656 6.902245998382568" rpy="0.0 0.0 2.058679394840065"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.037" fixed_frame="world">
+        <origin xyz="54.861663818359375 -43.01294708251953 6.492656230926514" rpy="0.0 0.0 3.1745729498542548"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.036" fixed_frame="world">
+        <origin xyz="52.69237518310547 -46.559364318847656 6.790410995483398" rpy="0.0 0.0 -2.314983574806067"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.035" fixed_frame="world">
+        <origin xyz="70.07144165039062 -37.88628387451172 9.658260345458984" rpy="0.0 0.0 -0.013157920175240978"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.034" fixed_frame="world">
+        <origin xyz="67.58732604980469 -38.619712829589844 9.9401273727417" rpy="0.0 0.0 3.3343268281512217"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.033" fixed_frame="world">
+        <origin xyz="69.01891326904297 -38.396095275878906 9.854188919067383" rpy="0.0 0.0 1.3087330514789248"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.032" fixed_frame="world">
+        <origin xyz="70.07144165039062 -41.967918395996094 10.073198318481445" rpy="0.0 0.0 -0.9364501639812302"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.031" fixed_frame="world">
+        <origin xyz="67.10655975341797 -38.93130874633789 10.00000286102295" rpy="0.0 0.0 -2.184860492782658"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.030" fixed_frame="world">
+        <origin xyz="64.93728637695312 -42.47772979736328 9.858248710632324" rpy="0.0 0.0 -2.213933495514479"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.029" fixed_frame="world">
+        <origin xyz="64.154541015625 -41.5000114440918 9.557432174682617" rpy="0.0 0.0 -1.8194275124600714"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.028" fixed_frame="world">
+        <origin xyz="59.424068450927734 -38.619712829589844 7.002466678619385" rpy="0.0 0.0 3.4055989215433757"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.027" fixed_frame="world">
+        <origin xyz="55.4814567565918 -40.447479248046875 6.472617149353027" rpy="0.0 0.0 -0.4495410049771489"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.026" fixed_frame="world">
+        <origin xyz="57.8265495300293 -41.967918395996094 7.067314147949219" rpy="0.0 0.0 -0.7525617106454305"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.025" fixed_frame="world">
+        <origin xyz="43.0129508972168 1.800431251525879 -0.335030734539032" rpy="0.0 0.0 1.2895285934702172"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.024" fixed_frame="world">
+        <origin xyz="45.266807556152344 -2.420228958129883 0.059694334864616394" rpy="0.0 0.0 -0.4718770200127138"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.023" fixed_frame="world">
+        <origin xyz="76.86734008789062 -55.99127197265625 12.736067771911621" rpy="0.0 0.0 1.0179944383289699"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.022" fixed_frame="world">
+        <origin xyz="75.66600799560547 -67.58732604980469 11.594812393188477" rpy="0.0 0.0 0.11809204046340271"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.021" fixed_frame="world">
+        <origin xyz="73.83824157714844 -47.31819152832031 10.5359468460083" rpy="0.0 0.0 0.24019363147246242"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.020" fixed_frame="world">
+        <origin xyz="74.62097930908203 -56.45918273925781 12.052571296691895" rpy="0.0 0.0 -0.23122035871976676"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.019" fixed_frame="world">
+        <origin xyz="75.35440826416016 -58.94329833984375 12.327959060668945" rpy="0.0 0.0 2.563559460282167"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.018" fixed_frame="world">
+        <origin xyz="75.13079071044922 -61.593345642089844 12.305213928222656" rpy="0.0 0.0 -1.8381323563202194"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.017" fixed_frame="world">
+        <origin xyz="74.153076171875 -62.3760871887207 12.106958389282227" rpy="0.0 0.0 2.1863971258594908"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.016" fixed_frame="world">
+        <origin xyz="75.35440826416016 -67.10655975341797 11.62195873260498" rpy="0.0 0.0 -0.8169415504732895"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.015" fixed_frame="world">
+        <origin xyz="75.13079071044922 -65.67498016357422 11.863811492919922" rpy="0.0 0.0 2.5413538301110177"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.014" fixed_frame="world">
+        <origin xyz="74.153076171875 -66.45771026611328 11.496445655822754" rpy="0.0 0.0 -2.088274713855642"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.013" fixed_frame="world">
+        <origin xyz="71.58438110351562 -67.58732604980469 11.130359649658203" rpy="0.0 0.0 -0.6170265104737576"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.012" fixed_frame="world">
+        <origin xyz="77.29707336425781 -38.36336135864258 7.85567569732666" rpy="0.0 0.0 0.8375772633981571"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.011" fixed_frame="world">
+        <origin xyz="74.17107391357422 -33.8070068359375 6.645229816436768" rpy="0.0 0.0 2.193921106193003"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.010" fixed_frame="world">
+        <origin xyz="75.3067398071289 -34.85115051269531 5.861455917358398" rpy="0.0 0.0 -0.2753896392165682"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.009" fixed_frame="world">
+        <origin xyz="86.08314514160156 54.72262954711914 -7.1819915771484375" rpy="0.0 0.0 -1.2043313274405087"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.008" fixed_frame="world">
+        <origin xyz="86.86588287353516 49.66327667236328 -5.54014253616333" rpy="0.0 0.0 -2.0865113723403015"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.007" fixed_frame="world">
+        <origin xyz="79.83223724365234 55.257843017578125 -9.567782402038574" rpy="0.0 0.0 -2.8542748112206846"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.006" fixed_frame="world">
+        <origin xyz="82.00151062011719 54.72262954711914 -8.608866691589355" rpy="0.0 0.0 2.1691717033344315"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.005" fixed_frame="world">
+        <origin xyz="82.78424835205078 49.66327667236328 -6.814294815063477" rpy="0.0 0.0 -2.2045107419066876"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.004" fixed_frame="world">
+        <origin xyz="79.74764251708984 46.69839859008789 -7.148831844329834" rpy="0.0 0.0 0.12986900306494942"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.003" fixed_frame="world">
+        <origin xyz="79.21243286132812 52.69237518310547 -8.935142517089844" rpy="0.0 0.0 0.5802017082664026"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.002" fixed_frame="world">
+        <origin xyz="76.39942932128906 44.21428298950195 -7.402990341186523" rpy="0.0 0.0 -2.81640594984968"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:broad_leaved_tree_macro name="BroadLeaved.001" fixed_frame="world">
+        <origin xyz="-75.35440826416016 -71.66896057128906 -7.341840744018555" rpy="0.0 0.0 -0.3497142848974488"/>
+    </xacro:broad_leaved_tree_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.295" fixed_frame="world">
+        <origin xyz="-48.773868560791016 72.5442123413086 -3.5190367698669434" rpy="0.0 0.0 1.6609818241187893"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.294" fixed_frame="world">
+        <origin xyz="-51.13130569458008 77.85881805419922 -3.381598472595215" rpy="0.0 0.0 -2.318022806898822"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.293" fixed_frame="world">
+        <origin xyz="-71.90270233154297 -76.20240020751953 -7.4634785652160645" rpy="0.0 0.0 3.9934382178489494"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.292" fixed_frame="world">
+        <origin xyz="-74.9518051147461 -84.22776794433594 -11.401301383972168" rpy="0.0 0.0 1.644436296907403"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.291" fixed_frame="world">
+        <origin xyz="-81.15096282958984 -80.31401062011719 -12.002338409423828" rpy="0.0 0.0 1.0765985408208896"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.290" fixed_frame="world">
+        <origin xyz="-86.9267349243164 -76.25877380371094 -13.106595039367676" rpy="0.0 0.0 0.18005567299916603"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.289" fixed_frame="world">
+        <origin xyz="-84.00513458251953 -77.36868286132812 -11.778594970703125" rpy="0.0 0.0 1.2085260149296304"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.288" fixed_frame="world">
+        <origin xyz="-82.85456085205078 -71.72285461425781 -9.821743965148926" rpy="0.0 0.0 1.3607041118342607"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.287" fixed_frame="world">
+        <origin xyz="-88.1147689819336 -72.4956283569336 -11.332615852355957" rpy="0.0 0.0 -0.05193178141999466"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.286" fixed_frame="world">
+        <origin xyz="-90.46334838867188 -75.35893249511719 -14.341630935668945" rpy="0.0 0.0 2.547294783587979"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.285" fixed_frame="world">
+        <origin xyz="-74.31416320800781 -54.62744903564453 -4.0377888679504395" rpy="0.0 0.0 3.5480913751022043"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.284" fixed_frame="world">
+        <origin xyz="-72.74432373046875 -56.55091857910156 -3.384180784225464" rpy="0.0 0.0 -1.3168074569549002"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.283" fixed_frame="world">
+        <origin xyz="-73.2005386352539 -60.11824035644531 -3.5032341480255127" rpy="0.0 0.0 0.16445820534673583"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.282" fixed_frame="world">
+        <origin xyz="-73.12953186035156 -59.75261688232422 -3.467761993408203" rpy="0.0 0.0 -0.37326091511979875"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.281" fixed_frame="world">
+        <origin xyz="-73.21292877197266 -65.76144409179688 -4.438614845275879" rpy="0.0 0.0 3.6118335936926127"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.280" fixed_frame="world">
+        <origin xyz="-76.41661071777344 -52.212528228759766 -5.396646976470947" rpy="0.0 0.0 1.2824332707172021"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.279" fixed_frame="world">
+        <origin xyz="-82.65895080566406 -53.00497055053711 -7.462915897369385" rpy="0.0 0.0 3.687201789183822"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.278" fixed_frame="world">
+        <origin xyz="-79.73873138427734 -55.78396224975586 -7.009999752044678" rpy="0.0 0.0 0.68928593928218"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.277" fixed_frame="world">
+        <origin xyz="-82.28794860839844 -57.43679428100586 -7.380816459655762" rpy="0.0 0.0 3.0010345439520276"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.276" fixed_frame="world">
+        <origin xyz="-82.57525634765625 -65.34270477294922 -8.046236038208008" rpy="0.0 0.0 0.1535446854127125"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.275" fixed_frame="world">
+        <origin xyz="-86.23825073242188 -53.44490051269531 -9.226045608520508" rpy="0.0 0.0 2.3975451948573077"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.274" fixed_frame="world">
+        <origin xyz="-85.80009460449219 -66.40933227539062 -7.916414737701416" rpy="0.0 0.0 0.31014135020163724"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.273" fixed_frame="world">
+        <origin xyz="-91.01126861572266 -51.47520446777344 -15.001866340637207" rpy="0.0 0.0 -1.9913027422973912"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.272" fixed_frame="world">
+        <origin xyz="-87.7779541015625 -54.22314453125 -10.812714576721191" rpy="0.0 0.0 -2.072364099826551"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.271" fixed_frame="world">
+        <origin xyz="-89.57000732421875 -63.517066955566406 -10.300310134887695" rpy="0.0 0.0 0.4135966971451914"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.270" fixed_frame="world">
+        <origin xyz="-77.99748229980469 -43.487449645996094 -7.530092716217041" rpy="0.0 0.0 -1.349868702385757"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.269" fixed_frame="world">
+        <origin xyz="-75.59223937988281 -44.28420639038086 -4.984830379486084" rpy="0.0 0.0 3.8008445461368345"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.268" fixed_frame="world">
+        <origin xyz="-48.295005798339844 -75.53399658203125 -7.181633949279785" rpy="0.0 0.0 -3.0485313467572652"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.267" fixed_frame="world">
+        <origin xyz="-49.658966064453125 -89.41143035888672 -11.0728759765625" rpy="0.0 0.0 0.10868371225150497"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.266" fixed_frame="world">
+        <origin xyz="-53.945709228515625 -82.07177734375 -6.7984538078308105" rpy="0.0 0.0 1.8970184478193803"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.265" fixed_frame="world">
+        <origin xyz="-51.876739501953125 -84.4637680053711 -8.086210250854492" rpy="0.0 0.0 -0.5456856754009078"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.264" fixed_frame="world">
+        <origin xyz="-57.9400520324707 -77.20271301269531 -4.535937309265137" rpy="0.0 0.0 -2.8388225686040736"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.263" fixed_frame="world">
+        <origin xyz="-55.90224838256836 -76.45071411132812 -5.8166327476501465" rpy="0.0 0.0 2.0689723506925843"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.262" fixed_frame="world">
+        <origin xyz="-62.38133239746094 -77.33395385742188 -3.8453073501586914" rpy="0.0 0.0 3.0765922104469277"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.261" fixed_frame="world">
+        <origin xyz="-61.9752197265625 -81.4791259765625 -6.034929275512695" rpy="0.0 0.0 -2.0670966817023553"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.260" fixed_frame="world">
+        <origin xyz="-62.55620574951172 -84.32771301269531 -7.289475440979004" rpy="0.0 0.0 4.077128335850144"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.259" fixed_frame="world">
+        <origin xyz="-60.97545623779297 -85.0410385131836 -7.387372016906738" rpy="0.0 0.0 -0.8233954619230741"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.258" fixed_frame="world">
+        <origin xyz="-66.40752410888672 -84.85786437988281 -8.39494514465332" rpy="0.0 0.0 -0.23462337104573328"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.257" fixed_frame="world">
+        <origin xyz="-67.19975280761719 -86.27114868164062 -9.449936866760254" rpy="0.0 0.0 -1.5629354811629712"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.256" fixed_frame="world">
+        <origin xyz="-68.21357727050781 -76.90570068359375 -6.289063453674316" rpy="0.0 0.0 -2.274960444677135"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.255" fixed_frame="world">
+        <origin xyz="-50.583282470703125 -74.68668365478516 -6.203049659729004" rpy="0.0 0.0 2.6541954787390805"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.254" fixed_frame="world">
+        <origin xyz="-54.76362609863281 -72.16110229492188 -3.8681492805480957" rpy="0.0 0.0 2.8685033747892272"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.253" fixed_frame="world">
+        <origin xyz="-56.827980041503906 -73.77071380615234 -4.3313093185424805" rpy="0.0 0.0 3.0157595000505366"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.252" fixed_frame="world">
+        <origin xyz="-43.57588195800781 -49.472076416015625 1.9194681644439697" rpy="0.0 0.0 2.673787116869517"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.251" fixed_frame="world">
+        <origin xyz="-44.03694152832031 -57.36394500732422 -3.6791458129882812" rpy="0.0 0.0 -2.9422364157348895"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.250" fixed_frame="world">
+        <origin xyz="-47.72719955444336 -49.229225158691406 2.3196043968200684" rpy="0.0 0.0 2.7561612924285392"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.249" fixed_frame="world">
+        <origin xyz="-49.649269104003906 -50.34093475341797 0.9867899417877197" rpy="0.0 0.0 2.0182531874891647"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.248" fixed_frame="world">
+        <origin xyz="-48.383811950683594 -59.84901428222656 -1.8565438985824585" rpy="0.0 0.0 -0.5067834356604495"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.247" fixed_frame="world">
+        <origin xyz="-52.22016143798828 -48.984771728515625 2.476560592651367" rpy="0.0 0.0 -0.34003016059959146"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.246" fixed_frame="world">
+        <origin xyz="-51.43564987182617 -53.25489807128906 -1.5889955759048462" rpy="0.0 0.0 0.22218857470802522"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.245" fixed_frame="world">
+        <origin xyz="-51.11784362792969 -58.18669891357422 -1.8252928256988525" rpy="0.0 0.0 0.545649916411723"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.244" fixed_frame="world">
+        <origin xyz="-52.848182678222656 -66.79107666015625 -1.6355023384094238" rpy="0.0 0.0 -2.4925827420578446"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.243" fixed_frame="world">
+        <origin xyz="-58.399818420410156 -68.73595428466797 -3.037544012069702" rpy="0.0 0.0 -2.068369881623116"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.242" fixed_frame="world">
+        <origin xyz="-55.8359375 -69.78528594970703 -2.7550456523895264" rpy="0.0 0.0 1.0157485715490728"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.241" fixed_frame="world">
+        <origin xyz="-58.12134552001953 -70.08943939208984 -3.1113667488098145" rpy="0.0 0.0 3.5639369139954895"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.240" fixed_frame="world">
+        <origin xyz="-60.52056121826172 -52.39646530151367 1.119673252105713" rpy="0.0 0.0 1.2365188934999556"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.239" fixed_frame="world">
+        <origin xyz="-60.57028579711914 -59.65191650390625 -0.5412850379943848" rpy="0.0 0.0 -0.129830125131301"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.238" fixed_frame="world">
+        <origin xyz="-64.18966674804688 -51.627464294433594 -0.23455825448036194" rpy="0.0 0.0 0.0669224033348188"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.237" fixed_frame="world">
+        <origin xyz="-65.47373962402344 -54.18983840942383 -1.3315377235412598" rpy="0.0 0.0 1.7957258412647286"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.236" fixed_frame="world">
+        <origin xyz="-67.31846618652344 -65.95321655273438 -1.6227574348449707" rpy="0.0 0.0 0.5262828848907937"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.235" fixed_frame="world">
+        <origin xyz="-65.09180450439453 -69.03314208984375 -1.925702452659607" rpy="0.0 0.0 0.49416059966066284"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.234" fixed_frame="world">
+        <origin xyz="-63.35301208496094 -67.78610229492188 -1.3821752071380615" rpy="0.0 0.0 2.0268813113687147"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.233" fixed_frame="world">
+        <origin xyz="-71.03570556640625 -55.51620101928711 -2.6699936389923096" rpy="0.0 0.0 0.08763486632975459"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.232" fixed_frame="world">
+        <origin xyz="-67.39997100830078 -67.40733337402344 -2.0133419036865234" rpy="0.0 0.0 -1.5885912005545693"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.231" fixed_frame="world">
+        <origin xyz="-68.84808349609375 -70.93762969970703 -4.417501926422119" rpy="0.0 0.0 -1.1007154846767508"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.230" fixed_frame="world">
+        <origin xyz="-68.43997192382812 -71.04931640625 -4.220446586608887" rpy="0.0 0.0 -0.41254032845392485"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.229" fixed_frame="world">
+        <origin xyz="-57.52726364135742 -43.08214569091797 4.667713165283203" rpy="0.0 0.0 -2.2594729463261616"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.228" fixed_frame="world">
+        <origin xyz="-58.98542785644531 -43.49868392944336 3.947260856628418" rpy="0.0 0.0 -2.9055611751323096"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.227" fixed_frame="world">
+        <origin xyz="-63.25788497924805 -43.16078567504883 2.100938081741333" rpy="0.0 0.0 2.8027253698975705"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.226" fixed_frame="world">
+        <origin xyz="-62.69101333618164 -45.45774459838867 1.954386830329895" rpy="0.0 0.0 2.113007550680701"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.225" fixed_frame="world">
+        <origin xyz="-64.66188049316406 -43.07367706298828 1.3101849555969238" rpy="0.0 0.0 1.4280673429034443"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.224" fixed_frame="world">
+        <origin xyz="-51.70366668701172 37.58821105957031 3.128159523010254" rpy="0.0 0.0 1.1554046985514597"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.223" fixed_frame="world">
+        <origin xyz="-51.3768196105957 29.199525833129883 3.4024786949157715" rpy="0.0 0.0 -2.489575874192482"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.222" fixed_frame="world">
+        <origin xyz="-51.86399841308594 29.646930694580078 3.4308059215545654" rpy="0.0 0.0 2.7649307395670886"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.221" fixed_frame="world">
+        <origin xyz="-52.320701599121094 26.797679901123047 3.677985429763794" rpy="0.0 0.0 3.4365027015873424"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.220" fixed_frame="world">
+        <origin xyz="-58.80711364746094 38.72505569458008 1.3101238012313843" rpy="0.0 0.0 3.8374171288497414"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.219" fixed_frame="world">
+        <origin xyz="-56.267276763916016 22.648365020751953 4.046414375305176" rpy="0.0 0.0 1.396788885716902"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.218" fixed_frame="world">
+        <origin xyz="-53.230587005615234 56.784393310546875 -1.0634933710098267" rpy="0.0 0.0 -1.5530351329570753"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.217" fixed_frame="world">
+        <origin xyz="-53.29161071777344 53.14627456665039 -1.3271212577819824" rpy="0.0 0.0 -1.2066519700553442"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.216" fixed_frame="world">
+        <origin xyz="-54.32492446899414 51.528594970703125 -0.6940522789955139" rpy="0.0 0.0 -2.410259401262049"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.215" fixed_frame="world">
+        <origin xyz="-53.477455139160156 52.1885986328125 -0.965283215045929" rpy="0.0 0.0 -2.756007995707054"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.214" fixed_frame="world">
+        <origin xyz="-55.155723571777344 55.79248809814453 -1.3137906789779663" rpy="0.0 0.0 2.8817663222430974"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.213" fixed_frame="world">
+        <origin xyz="-58.377662658691406 55.527366638183594 -1.298957109451294" rpy="0.0 0.0 -2.106301425613677"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.212" fixed_frame="world">
+        <origin xyz="-58.87934494018555 51.350833892822266 -0.744809091091156" rpy="0.0 0.0 1.574183292005093"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.211" fixed_frame="world">
+        <origin xyz="-60.68367385864258 52.941505432128906 -1.0382977724075317" rpy="0.0 0.0 -0.9933992736226886"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.210" fixed_frame="world">
+        <origin xyz="-60.138641357421875 44.334503173828125 0.037726566195487976" rpy="0.0 0.0 1.956707552548958"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.209" fixed_frame="world">
+        <origin xyz="-48.37236785888672 69.22689819335938 -3.070995330810547" rpy="0.0 0.0 0.3974228185444524"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.208" fixed_frame="world">
+        <origin xyz="-53.08716583251953 69.15332794189453 -4.069075584411621" rpy="0.0 0.0 -1.2142367571272425"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.207" fixed_frame="world">
+        <origin xyz="-18.905534744262695 -79.08833312988281 -7.946113586425781" rpy="0.0 0.0 0.5406357768579548"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.206" fixed_frame="world">
+        <origin xyz="-23.106359481811523 -79.47058868408203 -6.425294399261475" rpy="0.0 0.0 1.8200164834624952"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.205" fixed_frame="world">
+        <origin xyz="-22.636093139648438 -79.55533599853516 -6.768947601318359" rpy="0.0 0.0 2.0189022216794643"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.204" fixed_frame="world">
+        <origin xyz="-24.922395706176758 -78.41851806640625 -5.088239669799805" rpy="0.0 0.0 -0.6793447953742477"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.203" fixed_frame="world">
+        <origin xyz="-25.32990264892578 -79.54004669189453 -5.23827600479126" rpy="0.0 0.0 3.7428404774102124"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.202" fixed_frame="world">
+        <origin xyz="-30.191082000732422 -75.93482208251953 -4.793403148651123" rpy="0.0 0.0 -1.10698877591912"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.201" fixed_frame="world">
+        <origin xyz="-28.877330780029297 -85.50588989257812 -10.163472175598145" rpy="0.0 0.0 -2.7451248788403766"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.200" fixed_frame="world">
+        <origin xyz="-29.913814544677734 -86.00326538085938 -10.77273941040039" rpy="0.0 0.0 0.2962896147467817"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.199" fixed_frame="world">
+        <origin xyz="-31.148908615112305 -82.00739288330078 -7.862683296203613" rpy="0.0 0.0 0.10009084087572484"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.198" fixed_frame="world">
+        <origin xyz="-33.79254913330078 -85.49275207519531 -10.82923698425293" rpy="0.0 0.0 -1.3836592791093574"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.197" fixed_frame="world">
+        <origin xyz="-35.39030456542969 -83.54802703857422 -10.039169311523438" rpy="0.0 0.0 2.1656373894360557"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.196" fixed_frame="world">
+        <origin xyz="-20.379228591918945 -75.17948913574219 -5.602933883666992" rpy="0.0 0.0 -1.7032365223684391"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.195" fixed_frame="world">
+        <origin xyz="-29.464542388916016 -72.39295959472656 -2.527320384979248" rpy="0.0 0.0 -2.1550202210064455"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.194" fixed_frame="world">
+        <origin xyz="-38.56847381591797 -74.94876098632812 -6.430445194244385" rpy="0.0 0.0 1.5135600883271327"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.193" fixed_frame="world">
+        <origin xyz="-41.88389587402344 -73.46173858642578 -5.181159973144531" rpy="0.0 0.0 -0.08816341919353299"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.192" fixed_frame="world">
+        <origin xyz="-16.82498550415039 -51.19377136230469 2.185864210128784" rpy="0.0 0.0 -1.2783026963881088"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.191" fixed_frame="world">
+        <origin xyz="-18.090959548950195 -61.100406646728516 -4.943742752075195" rpy="0.0 0.0 3.595621198054521"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.190" fixed_frame="world">
+        <origin xyz="-20.07156753540039 -56.637908935546875 -2.8727667331695557" rpy="0.0 0.0 3.1241931718319313"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.189" fixed_frame="world">
+        <origin xyz="-29.681684494018555 -51.48394775390625 0.9818058013916016" rpy="0.0 0.0 1.1964563053623318"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.188" fixed_frame="world">
+        <origin xyz="-28.938819885253906 -63.745849609375 -2.30222225189209" rpy="0.0 0.0 3.4436868001309393"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.187" fixed_frame="world">
+        <origin xyz="-33.14605712890625 -50.41953659057617 1.5462360382080078" rpy="0.0 0.0 2.984821614092357"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.186" fixed_frame="world">
+        <origin xyz="-32.197593688964844 -54.687808990478516 -2.286574125289917" rpy="0.0 0.0 0.936748280823664"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.185" fixed_frame="world">
+        <origin xyz="-33.734352111816406 -59.621517181396484 -3.3756296634674072" rpy="0.0 0.0 -2.0051699462416206"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.184" fixed_frame="world">
+        <origin xyz="-30.681257247924805 -60.64551544189453 -3.2319376468658447" rpy="0.0 0.0 0.6663144985092835"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.183" fixed_frame="world">
+        <origin xyz="-35.890167236328125 -49.020111083984375 2.4962100982666016" rpy="0.0 0.0 1.2350912538178416"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.182" fixed_frame="world">
+        <origin xyz="-38.2252197265625 -52.60868453979492 -1.4185625314712524" rpy="0.0 0.0 3.255837079484078"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.181" fixed_frame="world">
+        <origin xyz="-38.16952133178711 -61.4876708984375 -2.550276279449463" rpy="0.0 0.0 1.764503363641325"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.180" fixed_frame="world">
+        <origin xyz="-35.120513916015625 -64.79590606689453 -1.3600671291351318" rpy="0.0 0.0 -2.9501279661375404"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.179" fixed_frame="world">
+        <origin xyz="-35.55964279174805 -68.22006225585938 -0.831129789352417" rpy="0.0 0.0 -2.4557526605854845"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.178" fixed_frame="world">
+        <origin xyz="-39.32414627075195 -49.9522705078125 1.2122468948364258" rpy="0.0 0.0 3.468459746280003"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.177" fixed_frame="world">
+        <origin xyz="-40.86027526855469 -50.6462287902832 0.3065091073513031" rpy="0.0 0.0 0.1450239942605358"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.176" fixed_frame="world">
+        <origin xyz="-40.09819412231445 -58.77719497680664 -3.5674595832824707" rpy="0.0 0.0 1.4334115325971237"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.175" fixed_frame="world">
+        <origin xyz="-42.36438751220703 -64.64173126220703 -2.1501805782318115" rpy="0.0 0.0 -3.076822510725275"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.174" fixed_frame="world">
+        <origin xyz="-15.83948802947998 -22.929546356201172 14.337414741516113" rpy="0.0 0.0 -1.4272868963749463"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.173" fixed_frame="world">
+        <origin xyz="-38.01418685913086 -25.469633102416992 10.963149070739746" rpy="0.0 0.0 0.7289621005935989"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.172" fixed_frame="world">
+        <origin xyz="-36.935089111328125 -25.007898330688477 11.233097076416016" rpy="0.0 0.0 4.017600551362534"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.171" fixed_frame="world">
+        <origin xyz="-35.6340446472168 -26.573253631591797 11.07847785949707" rpy="0.0 0.0 1.3995334154187362"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.170" fixed_frame="world">
+        <origin xyz="-37.05323028564453 -31.12535285949707 9.344812393188477" rpy="0.0 0.0 1.2241196708394226"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.169" fixed_frame="world">
+        <origin xyz="-15.113321304321289 7.210994720458984 14.351207733154297" rpy="0.0 0.0 3.052813895356692"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.168" fixed_frame="world">
+        <origin xyz="-17.395492553710938 6.800383567810059 14.447607040405273" rpy="0.0 0.0 -1.80744493264409"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.167" fixed_frame="world">
+        <origin xyz="-16.352048873901367 4.421964645385742 14.235367774963379" rpy="0.0 0.0 -1.3864817753814211"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.166" fixed_frame="world">
+        <origin xyz="-15.077232360839844 4.3614068031311035 14.289212226867676" rpy="0.0 0.0 0.7497229211753691"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.165" fixed_frame="world">
+        <origin xyz="-16.90494728088379 3.5744893550872803 14.177945137023926" rpy="0.0 0.0 -0.41666099280479285"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.164" fixed_frame="world">
+        <origin xyz="-15.900083541870117 -3.4126784801483154 14.03549861907959" rpy="0.0 0.0 3.720437539048215"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.163" fixed_frame="world">
+        <origin xyz="-22.090225219726562 7.081426620483398 14.104747772216797" rpy="0.0 0.0 -2.3946832469799695"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.162" fixed_frame="world">
+        <origin xyz="-23.113880157470703 9.445416450500488 13.499441146850586" rpy="0.0 0.0 -2.7387920054681225"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.161" fixed_frame="world">
+        <origin xyz="-23.949710845947266 -1.2909724712371826 13.994131088256836" rpy="0.0 0.0 3.0848437668326443"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.160" fixed_frame="world">
+        <origin xyz="-22.790571212768555 -5.791579246520996 14.03549861907959" rpy="0.0 0.0 3.8963133446797156"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.159" fixed_frame="world">
+        <origin xyz="-25.58228302001953 -7.507902145385742 14.03549861907959" rpy="0.0 0.0 2.8655495959475252"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.158" fixed_frame="world">
+        <origin xyz="-24.632076263427734 -6.556891918182373 14.035497665405273" rpy="0.0 0.0 -0.017499977030862812"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.157" fixed_frame="world">
+        <origin xyz="-29.309314727783203 8.701156616210938 10.962959289550781" rpy="0.0 0.0 -3.1220552938514903"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.156" fixed_frame="world">
+        <origin xyz="-26.644227981567383 6.592554092407227 12.289642333984375" rpy="0.0 0.0 1.8108728611946625"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.155" fixed_frame="world">
+        <origin xyz="-27.218990325927734 5.41938591003418 12.179443359375" rpy="0.0 0.0 0.3958298873773378"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.154" fixed_frame="world">
+        <origin xyz="-28.397998809814453 3.7498841285705566 12.204492568969727" rpy="0.0 0.0 -2.089621921781757"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.153" fixed_frame="world">
+        <origin xyz="-30.062652587890625 -3.24755597114563 13.64495849609375" rpy="0.0 0.0 -2.9614087194104237"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.152" fixed_frame="world">
+        <origin xyz="-34.5706672668457 -2.433396816253662 11.616105079650879" rpy="0.0 0.0 -1.4973176281987817"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.151" fixed_frame="world">
+        <origin xyz="-34.562355041503906 -3.9245872497558594 12.333453178405762" rpy="0.0 0.0 -2.9608191613511963"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.150" fixed_frame="world">
+        <origin xyz="-32.0234260559082 -3.4104771614074707 13.178974151611328" rpy="0.0 0.0 2.8812652468209"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.149" fixed_frame="world">
+        <origin xyz="-33.75434494018555 -6.998161792755127 13.594655990600586" rpy="0.0 0.0 -1.0249286596500742"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.148" fixed_frame="world">
+        <origin xyz="-33.8554573059082 -10.439017295837402 13.895906448364258" rpy="0.0 0.0 -1.0000090437953246"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.147" fixed_frame="world">
+        <origin xyz="-36.025177001953125 4.447546482086182 9.59543514251709" rpy="0.0 0.0 2.7811881475899356"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.146" fixed_frame="world">
+        <origin xyz="-37.026981353759766 3.858229637145996 9.43394947052002" rpy="0.0 0.0 1.471220220338203"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.145" fixed_frame="world">
+        <origin xyz="-36.83526611328125 -9.664434432983398 12.930418968200684" rpy="0.0 0.0 3.735573478702348"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.144" fixed_frame="world">
+        <origin xyz="-36.20449447631836 -11.662199974060059 12.997143745422363" rpy="0.0 0.0 -2.1221740698883007"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.143" fixed_frame="world">
+        <origin xyz="-35.768943786621094 -13.365129470825195 13.037402153015137" rpy="0.0 0.0 -2.2496154422448122"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.142" fixed_frame="world">
+        <origin xyz="-38.81345748901367 -2.3462400436401367 10.087654113769531" rpy="0.0 0.0 -1.1503132546460046"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.141" fixed_frame="world">
+        <origin xyz="-40.609474182128906 -5.469327449798584 9.931743621826172" rpy="0.0 0.0 -0.1921071781159407"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.140" fixed_frame="world">
+        <origin xyz="-38.80595779418945 -6.620848178863525 11.54127311706543" rpy="0.0 0.0 -2.6968469650368143"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.139" fixed_frame="world">
+        <origin xyz="-40.11922073364258 -8.548506736755371 10.870519638061523" rpy="0.0 0.0 0.655374065933175"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.138" fixed_frame="world">
+        <origin xyz="-40.31687927246094 -11.811813354492188 11.24690055847168" rpy="0.0 0.0 2.040443029836743"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.137" fixed_frame="world">
+        <origin xyz="-18.746795654296875 12.03467845916748 12.99172592163086" rpy="0.0 0.0 -1.9956334297289602"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.136" fixed_frame="world">
+        <origin xyz="-29.956729888916016 13.113497734069824 9.716306686401367" rpy="0.0 0.0 0.14519162944742758"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.135" fixed_frame="world">
+        <origin xyz="-28.542640686035156 10.66455078125 10.851487159729004" rpy="0.0 0.0 -0.832713677971932"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.134" fixed_frame="world">
+        <origin xyz="-28.687868118286133 10.333356857299805 10.91954517364502" rpy="0.0 0.0 0.9787659126801587"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.133" fixed_frame="world">
+        <origin xyz="-29.168415069580078 10.666921615600586 10.574427604675293" rpy="0.0 0.0 -1.8728867369623423"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.132" fixed_frame="world">
+        <origin xyz="-31.7193546295166 13.01860237121582 9.606499671936035" rpy="0.0 0.0 3.003010982719299"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.131" fixed_frame="world">
+        <origin xyz="-31.554508209228516 10.389063835144043 9.723146438598633" rpy="0.0 0.0 0.18109051852123326"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.130" fixed_frame="world">
+        <origin xyz="-33.753116607666016 11.864908218383789 9.775912284851074" rpy="0.0 0.0 0.4077142668072007"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.129" fixed_frame="world">
+        <origin xyz="-17.756134033203125 28.792343139648438 11.618104934692383" rpy="0.0 0.0 3.2646002186365766"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.128" fixed_frame="world">
+        <origin xyz="-14.937307357788086 25.696914672851562 13.222884178161621" rpy="0.0 0.0 -2.5630603366867186"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.127" fixed_frame="world">
+        <origin xyz="-14.411622047424316 15.863363265991211 12.915182113647461" rpy="0.0 0.0 2.7836166161158764"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.126" fixed_frame="world">
+        <origin xyz="-21.093435287475586 29.82302474975586 10.50208854675293" rpy="0.0 0.0 -0.9583172610605413"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.125" fixed_frame="world">
+        <origin xyz="-19.45368766784668 28.08072280883789 11.837726593017578" rpy="0.0 0.0 -1.4088001132213062"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.124" fixed_frame="world">
+        <origin xyz="-21.472108840942383 20.246070861816406 11.784199714660645" rpy="0.0 0.0 0.982366097762903"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.123" fixed_frame="world">
+        <origin xyz="-19.773880004882812 14.799757957458496 12.389638900756836" rpy="0.0 0.0 -1.5957144271456016"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.122" fixed_frame="world">
+        <origin xyz="-26.16366958618164 37.698909759521484 6.66636323928833" rpy="0.0 0.0 1.2814061785416695"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.121" fixed_frame="world">
+        <origin xyz="-24.227630615234375 37.308799743652344 7.7469048500061035" rpy="0.0 0.0 -3.1122680382008165"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.120" fixed_frame="world">
+        <origin xyz="-25.817045211791992 33.648799896240234 7.810474395751953" rpy="0.0 0.0 3.237461614417977"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.119" fixed_frame="world">
+        <origin xyz="-25.8268985748291 21.70241928100586 10.156169891357422" rpy="0.0 0.0 1.7926491382448932"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.118" fixed_frame="world">
+        <origin xyz="-23.37374496459961 21.95905303955078 11.05678653717041" rpy="0.0 0.0 -0.9291069078867893"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.117" fixed_frame="world">
+        <origin xyz="-28.09231948852539 37.235328674316406 5.921479225158691" rpy="0.0 0.0 -2.3493401154133977"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.116" fixed_frame="world">
+        <origin xyz="-28.414382934570312 38.44350051879883 5.482718467712402" rpy="0.0 0.0 -3.1134531735095057"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.115" fixed_frame="world">
+        <origin xyz="-29.310073852539062 30.156803131103516 8.524574279785156" rpy="0.0 0.0 2.8767208713581724"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.114" fixed_frame="world">
+        <origin xyz="-27.19354820251465 26.863954544067383 9.15163803100586" rpy="0.0 0.0 0.3119801565924485"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.113" fixed_frame="world">
+        <origin xyz="-29.454051971435547 21.33066177368164 9.545454978942871" rpy="0.0 0.0 -0.3780323757522872"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.112" fixed_frame="world">
+        <origin xyz="-26.7380313873291 20.843931198120117 9.950523376464844" rpy="0.0 0.0 -1.795395762142144"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.111" fixed_frame="world">
+        <origin xyz="-33.933170318603516 37.215980529785156 6.026450157165527" rpy="0.0 0.0 3.6989729466673062"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.110" fixed_frame="world">
+        <origin xyz="-34.379730224609375 35.402198791503906 5.8765177726745605" rpy="0.0 0.0 4.029369597636418"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.109" fixed_frame="world">
+        <origin xyz="-30.765392303466797 31.816741943359375 8.072972297668457" rpy="0.0 0.0 -1.6100265169502965"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.108" fixed_frame="world">
+        <origin xyz="-33.694793701171875 30.671302795410156 6.359705924987793" rpy="0.0 0.0 1.0275158673961209"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.107" fixed_frame="world">
+        <origin xyz="-33.93011474609375 28.971416473388672 6.379859924316406" rpy="0.0 0.0 -1.8838868287747168"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.106" fixed_frame="world">
+        <origin xyz="-32.50577926635742 30.320838928222656 7.114115238189697" rpy="0.0 0.0 2.8314336666816993"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.105" fixed_frame="world">
+        <origin xyz="-32.71552276611328 27.89451026916504 7.5324296951293945" rpy="0.0 0.0 3.773232664840411"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.104" fixed_frame="world">
+        <origin xyz="-32.21080780029297 24.548601150512695 8.847371101379395" rpy="0.0 0.0 -2.1060151341048075"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.103" fixed_frame="world">
+        <origin xyz="-32.76579666137695 22.183048248291016 8.79047966003418" rpy="0.0 0.0 3.536986722482967"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.102" fixed_frame="world">
+        <origin xyz="-37.2749137878418 36.859588623046875 4.638748645782471" rpy="0.0 0.0 3.596969928910252"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.101" fixed_frame="world">
+        <origin xyz="-36.616947174072266 30.89424705505371 5.064935207366943" rpy="0.0 0.0 -0.3072737210444476"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.100" fixed_frame="world">
+        <origin xyz="-35.340396881103516 21.504817962646484 7.560322284698486" rpy="0.0 0.0 -1.0391343037903926"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.099" fixed_frame="world">
+        <origin xyz="-35.46942901611328 21.77237892150879 7.412463188171387" rpy="0.0 0.0 -1.32068768620323"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.098" fixed_frame="world">
+        <origin xyz="-38.83495330810547 31.73892593383789 4.753929138183594" rpy="0.0 0.0 -1.5347420557202176"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.097" fixed_frame="world">
+        <origin xyz="-39.83600616455078 28.74467658996582 4.784636497497559" rpy="0.0 0.0 -2.3204878320825513"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.096" fixed_frame="world">
+        <origin xyz="-20.85645294189453 42.21516799926758 9.75795841217041" rpy="0.0 0.0 3.590328546593591"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.095" fixed_frame="world">
+        <origin xyz="-19.129302978515625 39.7518310546875 9.922236442565918" rpy="0.0 0.0 0.08169167088354312"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.094" fixed_frame="world">
+        <origin xyz="-20.69639778137207 40.118896484375 9.485944747924805" rpy="0.0 0.0 -3.0006064737118616"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.093" fixed_frame="world">
+        <origin xyz="-28.104703903198242 39.52783966064453 5.475848197937012" rpy="0.0 0.0 -1.1835032744356742"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.092" fixed_frame="world">
+        <origin xyz="-35.660064697265625 39.617408752441406 4.501767158508301" rpy="0.0 0.0 3.196115465718981"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.091" fixed_frame="world">
+        <origin xyz="-14.392322540283203 47.72750473022461 8.348882675170898" rpy="0.0 0.0 2.6858213063661664"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.090" fixed_frame="world">
+        <origin xyz="-18.18271255493164 47.57920837402344 8.606487274169922" rpy="0.0 0.0 -0.9289109383184555"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.089" fixed_frame="world">
+        <origin xyz="-17.872081756591797 46.36763381958008 9.450434684753418" rpy="0.0 0.0 1.4226117184497187"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.088" fixed_frame="world">
+        <origin xyz="-19.80783462524414 57.33657455444336 4.939759254455566" rpy="0.0 0.0 -1.7330326010293915"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.087" fixed_frame="world">
+        <origin xyz="-18.40772819519043 56.681095123291016 5.312470436096191" rpy="0.0 0.0 3.9571698957195616"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.086" fixed_frame="world">
+        <origin xyz="-22.43198585510254 53.172264099121094 4.564319133758545" rpy="0.0 0.0 -0.8678673814774216"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.085" fixed_frame="world">
+        <origin xyz="-22.249422073364258 50.670143127441406 5.340664386749268" rpy="0.0 0.0 1.97958383440718"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.084" fixed_frame="world">
+        <origin xyz="-19.595584869384766 49.945945739746094 6.687719345092773" rpy="0.0 0.0 3.5063251269514377"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.083" fixed_frame="world">
+        <origin xyz="-21.853057861328125 46.92068862915039 8.200971603393555" rpy="0.0 0.0 -0.07202156557622041"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.082" fixed_frame="world">
+        <origin xyz="-23.25880241394043 59.920082092285156 4.23537540435791" rpy="0.0 0.0 2.262974882709036"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.081" fixed_frame="world">
+        <origin xyz="-25.655054092407227 60.92107009887695 3.196070909500122" rpy="0.0 0.0 -0.4708229476445065"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.080" fixed_frame="world">
+        <origin xyz="-23.411190032958984 57.001670837402344 4.321316242218018" rpy="0.0 0.0 3.7402421494260616"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.079" fixed_frame="world">
+        <origin xyz="-26.099308013916016 49.909690856933594 4.5339460372924805" rpy="0.0 0.0 2.1176485232180595"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.078" fixed_frame="world">
+        <origin xyz="-26.81471824645996 62.308258056640625 2.751925468444824" rpy="0.0 0.0 -0.7953965005631498"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.077" fixed_frame="world">
+        <origin xyz="-28.011333465576172 59.49071502685547 2.9862220287323" rpy="0.0 0.0 -1.6641409684610622"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.076" fixed_frame="world">
+        <origin xyz="-26.73163414001465 49.704105377197266 4.442948341369629" rpy="0.0 0.0 2.279234597821549"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.075" fixed_frame="world">
+        <origin xyz="-27.472440719604492 47.67076873779297 5.075213432312012" rpy="0.0 0.0 0.8391406839611246"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.074" fixed_frame="world">
+        <origin xyz="-31.387252807617188 57.85186004638672 2.534250020980835" rpy="0.0 0.0 -2.383686345822871"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.073" fixed_frame="world">
+        <origin xyz="-30.834739685058594 54.90272903442383 2.9996676445007324" rpy="0.0 0.0 3.9942970602476575"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.072" fixed_frame="world">
+        <origin xyz="-31.737342834472656 54.908267974853516 2.8857827186584473" rpy="0.0 0.0 3.056168495544171"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.071" fixed_frame="world">
+        <origin xyz="-31.404298782348633 52.281028747558594 3.251163959503174" rpy="0.0 0.0 1.8825023935706686"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.070" fixed_frame="world">
+        <origin xyz="-32.968894958496094 48.21519088745117 2.9490981101989746" rpy="0.0 0.0 1.8657380736507219"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.069" fixed_frame="world">
+        <origin xyz="-30.920211791992188 43.08794021606445 3.486626148223877" rpy="0.0 0.0 0.5542420659934035"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.068" fixed_frame="world">
+        <origin xyz="7.079982757568359 -79.37786865234375 -3.520160436630249" rpy="0.0 0.0 0.9332615493991798"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.067" fixed_frame="world">
+        <origin xyz="5.892178535461426 -88.01554870605469 -4.294635772705078" rpy="0.0 0.0 3.0186741890855058"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.066" fixed_frame="world">
+        <origin xyz="0.1633850634098053 -91.3261947631836 -7.854290008544922" rpy="0.0 0.0 2.6003252934547043"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.065" fixed_frame="world">
+        <origin xyz="-3.9388914108276367 -75.94181060791016 -5.64107608795166" rpy="0.0 0.0 -3.074818195425619"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.064" fixed_frame="world">
+        <origin xyz="-5.3048858642578125 -79.34192657470703 -6.731574535369873" rpy="0.0 0.0 3.611433913187566"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.063" fixed_frame="world">
+        <origin xyz="-5.412564277648926 -87.5984115600586 -8.706334114074707" rpy="0.0 0.0 0.4658763904179737"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.062" fixed_frame="world">
+        <origin xyz="-4.641678333282471 -89.70318603515625 -9.013123512268066" rpy="0.0 0.0 2.7908458604153705"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.061" fixed_frame="world">
+        <origin xyz="-7.802112102508545 -80.20306396484375 -7.627350807189941" rpy="0.0 0.0 -1.080436588524412"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.060" fixed_frame="world">
+        <origin xyz="-6.837921142578125 -82.6328353881836 -7.859545707702637" rpy="0.0 0.0 3.777134044756457"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.059" fixed_frame="world">
+        <origin xyz="-9.47982120513916 -83.57785034179688 -8.665596961975098" rpy="0.0 0.0 1.703716759706119"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.058" fixed_frame="world">
+        <origin xyz="7.568338394165039 -75.21694946289062 -2.663336753845215" rpy="0.0 0.0 0.1326989218757535"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.057" fixed_frame="world">
+        <origin xyz="4.593945026397705 -75.4241714477539 -3.5181925296783447" rpy="0.0 0.0 2.638656432619286"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.056" fixed_frame="world">
+        <origin xyz="-9.04747200012207 -71.87843322753906 -2.872502088546753" rpy="0.0 0.0 0.4292474102369863"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.055" fixed_frame="world">
+        <origin xyz="-10.284187316894531 -74.6065902709961 -3.6888294219970703" rpy="0.0 0.0 -2.5866319442577"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.054" fixed_frame="world">
+        <origin xyz="8.352957725524902 -68.43144226074219 -1.5245904922485352" rpy="0.0 0.0 -0.6559798961354026"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.053" fixed_frame="world">
+        <origin xyz="9.467671394348145 -70.79512023925781 -1.5344427824020386" rpy="0.0 0.0 -1.811815408664297"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.052" fixed_frame="world">
+        <origin xyz="5.079288482666016 -66.7259521484375 -2.368185043334961" rpy="0.0 0.0 2.9039727846537544"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.051" fixed_frame="world">
+        <origin xyz="2.257941722869873 -69.48268127441406 -3.4932985305786133" rpy="0.0 0.0 1.9659207482177288"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.050" fixed_frame="world">
+        <origin xyz="-1.4530504941940308 -62.27644348144531 -4.344453811645508" rpy="0.0 0.0 -0.8485902124329847"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.049" fixed_frame="world">
+        <origin xyz="1.1254901885986328 -68.249267578125 -3.6890172958374023" rpy="0.0 0.0 -1.732123098911192"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.048" fixed_frame="world">
+        <origin xyz="-4.053272247314453 -53.27458953857422 1.062694787979126" rpy="0.0 0.0 4.021032493199092"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.047" fixed_frame="world">
+        <origin xyz="-5.594172954559326 -61.84991455078125 -5.06569242477417" rpy="0.0 0.0 3.8567801684289607"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.046" fixed_frame="world">
+        <origin xyz="-5.854158401489258 -66.4208984375 -3.776733875274658" rpy="0.0 0.0 -1.16515788719893"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.045" fixed_frame="world">
+        <origin xyz="-6.643797874450684 -53.48162078857422 0.4668741822242737" rpy="0.0 0.0 2.5973008953909313"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.044" fixed_frame="world">
+        <origin xyz="-7.108498573303223 -60.499629974365234 -4.918794631958008" rpy="0.0 0.0 -1.1627338147155701"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.043" fixed_frame="world">
+        <origin xyz="-11.809488296508789 -59.337188720703125 -4.334596633911133" rpy="0.0 0.0 -2.8581133798447027"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.042" fixed_frame="world">
+        <origin xyz="-12.319280624389648 -68.99127197265625 -2.8146486282348633" rpy="0.0 0.0 4.0387191135393365"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.041" fixed_frame="world">
+        <origin xyz="-12.540493965148926 -16.299165725708008 14.035496711730957" rpy="0.0 0.0 -2.9254382584749474"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.040" fixed_frame="world">
+        <origin xyz="-9.563295364379883 8.8156156539917 16.4222412109375" rpy="0.0 0.0 -0.7533755658618921"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.039" fixed_frame="world">
+        <origin xyz="-10.557991027832031 8.8676176071167 16.03005027770996" rpy="0.0 0.0 -2.242312382179393"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.038" fixed_frame="world">
+        <origin xyz="-12.062889099121094 3.9663498401641846 14.5084228515625" rpy="0.0 0.0 2.5294596901666204"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.037" fixed_frame="world">
+        <origin xyz="-14.254395484924316 -1.9998469352722168 14.03549861907959" rpy="0.0 0.0 -2.3040615235953936"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.036" fixed_frame="world">
+        <origin xyz="-11.41188907623291 -5.19351863861084 14.03549861907959" rpy="0.0 0.0 -1.9980881455934574"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.035" fixed_frame="world">
+        <origin xyz="-4.920063495635986 10.406118392944336 17.036632537841797" rpy="0.0 0.0 0.3599392490904201"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.034" fixed_frame="world">
+        <origin xyz="-7.407481670379639 13.351825714111328 15.975421905517578" rpy="0.0 0.0 -0.164612060377741"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.033" fixed_frame="world">
+        <origin xyz="-6.433839321136475 14.271265029907227 15.642351150512695" rpy="0.0 0.0 0.8430621439970283"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.032" fixed_frame="world">
+        <origin xyz="-13.485723495483398 13.13528060913086 14.07787799835205" rpy="0.0 0.0 -2.3799155696519345"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.031" fixed_frame="world">
+        <origin xyz="-4.09319543838501 21.633686065673828 14.23610782623291" rpy="0.0 0.0 3.1279479662045158"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.030" fixed_frame="world">
+        <origin xyz="-4.893696308135986 16.86904525756836 15.265060424804688" rpy="0.0 0.0 -3.120316984503368"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.029" fixed_frame="world">
+        <origin xyz="-5.824979782104492 17.275409698486328 15.11468505859375" rpy="0.0 0.0 -1.3239985137938013"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.028" fixed_frame="world">
+        <origin xyz="-10.073832511901855 34.433380126953125 9.38318157196045" rpy="0.0 0.0 3.364186622600799"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.027" fixed_frame="world">
+        <origin xyz="-10.082426071166992 25.483531951904297 13.66938591003418" rpy="0.0 0.0 -2.0219224383204466"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.026" fixed_frame="world">
+        <origin xyz="-8.027950286865234 25.28095245361328 13.411280632019043" rpy="0.0 0.0 -2.8316927562550616"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.025" fixed_frame="world">
+        <origin xyz="-7.541043281555176 20.66994285583496 14.382074356079102" rpy="0.0 0.0 -0.12494156003648005"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.024" fixed_frame="world">
+        <origin xyz="-7.476312637329102 16.917455673217773 14.649126052856445" rpy="0.0 0.0 1.9176239770626373"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.023" fixed_frame="world">
+        <origin xyz="-11.353219032287598 27.257122039794922 13.650458335876465" rpy="0.0 0.0 2.8336427937413045"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.022" fixed_frame="world">
+        <origin xyz="-10.265727996826172 18.082984924316406 13.596861839294434" rpy="0.0 0.0 1.0948391966363071"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.021" fixed_frame="world">
+        <origin xyz="-12.950278282165527 42.259639739990234 10.110674858093262" rpy="0.0 0.0 -2.706765206763874"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.020" fixed_frame="world">
+        <origin xyz="35.406028747558594 -80.38262939453125 8.279419898986816" rpy="0.0 0.0 2.6052192820172393"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.019" fixed_frame="world">
+        <origin xyz="33.596412658691406 -76.27285766601562 8.53427791595459" rpy="0.0 0.0 -1.6893310946066789"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.018" fixed_frame="world">
+        <origin xyz="28.782026290893555 -77.52823638916016 5.849535942077637" rpy="0.0 0.0 -3.0079158144029385"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.017" fixed_frame="world">
+        <origin xyz="27.865278244018555 -78.7459716796875 5.14351749420166" rpy="0.0 0.0 3.0498388178412896"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.016" fixed_frame="world">
+        <origin xyz="27.776029586791992 -88.36287689208984 4.401174068450928" rpy="0.0 0.0 -0.15168953382364503"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.015" fixed_frame="world">
+        <origin xyz="23.427295684814453 -76.44166564941406 3.043278932571411" rpy="0.0 0.0 1.294764054497556"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.014" fixed_frame="world">
+        <origin xyz="22.90966796875 -77.05928039550781 2.966884136199951" rpy="0.0 0.0 -1.217292579889894"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.013" fixed_frame="world">
+        <origin xyz="23.43109893798828 -78.67696380615234 2.8288488388061523" rpy="0.0 0.0 0.1557480798611377"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.012" fixed_frame="world">
+        <origin xyz="15.839845657348633 -80.3297119140625 0.4011955261230469" rpy="0.0 0.0 -2.7840710668644912"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.011" fixed_frame="world">
+        <origin xyz="36.75118637084961 -75.14466857910156 8.824662208557129" rpy="0.0 0.0 2.4299884866026678"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.010" fixed_frame="world">
+        <origin xyz="29.481626510620117 -72.47071075439453 6.667043685913086" rpy="0.0 0.0 4.099489898568345"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.009" fixed_frame="world">
+        <origin xyz="31.788333892822266 -67.89734649658203 7.753108024597168" rpy="0.0 0.0 3.1649160414704096"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.008" fixed_frame="world">
+        <origin xyz="28.469545364379883 -63.52601623535156 5.254965782165527" rpy="0.0 0.0 0.10491099481848165"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.007" fixed_frame="world">
+        <origin xyz="27.809110641479492 -69.24410247802734 4.854668617248535" rpy="0.0 0.0 3.7254429471984287"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.006" fixed_frame="world">
+        <origin xyz="28.163061141967773 -70.765869140625 5.538692474365234" rpy="0.0 0.0 3.099108532991696"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.005" fixed_frame="world">
+        <origin xyz="22.895545959472656 -68.43905639648438 3.373936176300049" rpy="0.0 0.0 -2.429100311109952"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.004" fixed_frame="world">
+        <origin xyz="19.82683563232422 -59.64500427246094 3.2165746688842773" rpy="0.0 0.0 3.023902611663209"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.003" fixed_frame="world">
+        <origin xyz="19.166969299316406 -64.11326599121094 2.310525417327881" rpy="0.0 0.0 2.7416971528343956"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.002" fixed_frame="world">
+        <origin xyz="15.828035354614258 -67.29119110107422 1.2767643928527832" rpy="0.0 0.0 -1.545412582812726"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:conifer_macro name="Conifer.001" fixed_frame="world">
+        <origin xyz="-72.1737060546875 -45.02142333984375 -3.1353371143341064" rpy="0.0 0.0 0.47332230421994703"/>
+    </xacro:conifer_macro>
+    
+
+    <xacro:rock_macro name="Rock.063" fixed_frame="world">
+        <origin xyz="-49.29997634887695 73.10054016113281 -3.5612668991088867" rpy="0.0 0.0 0.777887429210919"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.061" fixed_frame="world">
+        <origin xyz="-22.293182373046875 87.51472473144531 -7.245845794677734" rpy="0.0 0.0 1.601105580008959"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.058" fixed_frame="world">
+        <origin xyz="-22.208595275878906 75.66600799560547 -1.5202078819274902" rpy="0.0 0.0 2.587247708333122"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.056" fixed_frame="world">
+        <origin xyz="-29.255115509033203 82.78424072265625 -2.678455352783203" rpy="0.0 0.0 2.7816252395484953"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.055" fixed_frame="world">
+        <origin xyz="63.505699157714844 83.82926940917969 -19.134159088134766" rpy="0.0 0.0 -2.4330294788218816"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.054" fixed_frame="world">
+        <origin xyz="60.855648040771484 71.8079833984375 -18.604248046875" rpy="0.0 0.0 0.6942686331470624"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.053" fixed_frame="world">
+        <origin xyz="53.744903564453125 88.64433288574219 -14.961904525756836" rpy="0.0 0.0 -1.3736121675198891"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.052" fixed_frame="world">
+        <origin xyz="54.946250915527344 83.91384887695312 -14.961906433105469" rpy="0.0 0.0 -2.906642191704833"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.050" fixed_frame="world">
+        <origin xyz="-78.70260620117188 23.806114196777344 -10.616765975952148" rpy="0.0 0.0 -0.841283189149828"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.046" fixed_frame="world">
+        <origin xyz="-71.27278137207031 -63.505699157714844 -3.244274139404297" rpy="0.0 0.0 -1.3615457162923152"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.043" fixed_frame="world">
+        <origin xyz="-47.17253112792969 -38.87751007080078 7.1748127937316895" rpy="0.0 0.0 2.4760868008881745"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.041" fixed_frame="world">
+        <origin xyz="-52.35999298095703 -37.87699890136719 7.553524494171143" rpy="0.0 0.0 2.7223477598958756"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.040" fixed_frame="world">
+        <origin xyz="-50.8646125793457 -10.444467544555664 9.999934196472168" rpy="0.0 0.0 -0.2909928603905776"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.039" fixed_frame="world">
+        <origin xyz="-56.774009704589844 54.72262954711914 -1.030592679977417" rpy="0.0 0.0 -1.67483375555111"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.036" fixed_frame="world">
+        <origin xyz="-53.43006896972656 67.72634887695312 -3.7978367805480957" rpy="0.0 0.0 -1.357479390120949"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.035" fixed_frame="world">
+        <origin xyz="-27.416107177734375 -48.285770416259766 4.1167731285095215" rpy="0.0 0.0 0.07677443863467381"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.033" fixed_frame="world">
+        <origin xyz="-36.905303955078125 -45.235511779785156 5.151148796081543" rpy="0.0 0.0 2.063275120483562"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.032" fixed_frame="world">
+        <origin xyz="-23.33820915222168 8.846945762634277 13.54956340789795" rpy="0.0 0.0 3.569395462264336"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.030" fixed_frame="world">
+        <origin xyz="-22.828393936157227 3.712784767150879 13.781449317932129" rpy="0.0 0.0 2.458795093691641"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.029" fixed_frame="world">
+        <origin xyz="-17.478120803833008 31.969383239746094 9.935178756713867" rpy="0.0 0.0 0.05494242899245361"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.028" fixed_frame="world">
+        <origin xyz="-22.208595275878906 30.768049240112305 9.080759048461914" rpy="0.0 0.0 1.1741408006231997"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.027" fixed_frame="world">
+        <origin xyz="-30.991661071777344 48.61074447631836 3.4598655700683594" rpy="0.0 0.0 3.073019606785263"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.026" fixed_frame="world">
+        <origin xyz="-9.31485366821289 11.561216354370117 16.19263458251953" rpy="0.0 0.0 1.4975740512152336"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.021" fixed_frame="world">
+        <origin xyz="38.79843521118164 58.05254364013672 -13.217910766601562" rpy="0.0 0.0 2.1741637420596303"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.020" fixed_frame="world">
+        <origin xyz="23.38106346130371 65.6131591796875 -11.639592170715332" rpy="0.0 0.0 3.8533202514086464"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.018" fixed_frame="world">
+        <origin xyz="13.526308059692383 76.78491973876953 -10.065695762634277" rpy="0.0 0.0 0.20778375094422508"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.016" fixed_frame="world">
+        <origin xyz="34.934261322021484 -18.2115478515625 4.641063213348389" rpy="0.0 0.0 -1.8884043360328597"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.015" fixed_frame="world">
+        <origin xyz="40.544437408447266 -21.008405685424805 2.2363550662994385" rpy="0.0 0.0 1.2332886030106338"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.013" fixed_frame="world">
+        <origin xyz="40.13254928588867 -16.07391357421875 1.8693015575408936" rpy="0.0 0.0 -0.26079356621733796"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.011" fixed_frame="world">
+        <origin xyz="52.377540588378906 -51.909637451171875 7.254910469055176" rpy="0.0 0.0 -3.10794852784706"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.010" fixed_frame="world">
+        <origin xyz="47.094581604003906 -47.179168701171875 7.210117340087891" rpy="0.0 0.0 -1.499089033835007"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.009" fixed_frame="world">
+        <origin xyz="50.64099884033203 -57.51171112060547 8.039212226867676" rpy="0.0 0.0 1.40281406070832"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.008" fixed_frame="world">
+        <origin xyz="32.7486457824707 -51.97863006591797 5.514969348907471" rpy="0.0 0.0 0.6134507762594796"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.007" fixed_frame="world">
+        <origin xyz="71.18820190429688 -26.686412811279297 2.8720502853393555" rpy="0.0 0.0 3.74716740347429"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.006" fixed_frame="world">
+        <origin xyz="58.80426788330078 -24.858642578125 4.1683855056762695" rpy="0.0 0.0 -2.4641078997630883"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.005" fixed_frame="world">
+        <origin xyz="52.377540588378906 1.1515878438949585 -1.9894787073135376" rpy="0.0 0.0 -1.0631980897585875"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.004" fixed_frame="world">
+        <origin xyz="51.535499572753906 -3.818643569946289 -2.1234467029571533" rpy="0.0 0.0 -0.7697864165892923"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.003" fixed_frame="world">
+        <origin xyz="77.91986846923828 62.885894775390625 -11.922521591186523" rpy="0.0 0.0 3.1598203633265025"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.002" fixed_frame="world">
+        <origin xyz="74.153076171875 60.072898864746094 -11.307841300964355" rpy="0.0 0.0 3.2064047429804314"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:rock_macro name="Rock.001" fixed_frame="world">
+        <origin xyz="14.045330047607422 42.701351165771484 0.014155134558677673" rpy="0.0 0.0 1.5413498782799535"/>
+    </xacro:rock_macro>
+    
+
+    <xacro:Cube.002_macro name="Shoe" fixed_frame="world">
+        <origin xyz="71.41931915283203 -13.071528434753418 2.6352181434631348" rpy="0.0 -0.0 0.0"/>
+    </xacro:Cube.002_macro>
+    
+
+    <xacro:avalanche_victim_macro name="AvalancheVictim.002" fixed_frame="world">
+        <origin xyz="83.6379623413086 -11.121040344238281 7.39618444442749" rpy="0.0 -0.0 0.0"/>
+    </xacro:avalanche_victim_macro>
+    
+
+    <xacro:avalanche_victim_macro name="AvalancheVictim.001" fixed_frame="world">
+        <origin xyz="51.86360168457031 58.300437927246094 -13.363946914672852" rpy="0.0 -0.0 0.0"/>
+    </xacro:avalanche_victim_macro>
+    
+
+    <xacro:lost_victim_macro name="lost_victim.003" fixed_frame="world">
+        <origin xyz="46.47050094604492 93.89409637451172 -14.94842529296875" rpy="0.0 -0.0 1.7265684604644775"/>
+    </xacro:lost_victim_macro>
+    
+
+    <xacro:lost_victim_macro name="lost_victim.002" fixed_frame="world">
+        <origin xyz="59.561065673828125 -19.239892959594727 3.979928731918335" rpy="0.0 -0.0 0.0"/>
+    </xacro:lost_victim_macro>
+    
+
+    <xacro:lost_victim_macro name="lost_victim.001" fixed_frame="world">
+        <origin xyz="-15.96411418914795 21.490915298461914 13.020235061645508" rpy="-0.038070499897003174 0.4153600037097931 -2.2900054454803467"/>
+    </xacro:lost_victim_macro>
+    
+
+    <xacro:lost_victim_macro name="lost_victim" fixed_frame="world">
+        <origin xyz="-13.173432350158691 -10.367545127868652 13.994397163391113" rpy="0.0 -0.0 0.0"/>
+    </xacro:lost_victim_macro>
+    
+
+    <xacro:avalanche_victim_macro name="AvalancheVictim" fixed_frame="world">
+        <origin xyz="62.644569396972656 25.021011352539062 -1.521758794784546" rpy="0.0 -0.0 0.0"/>
+    </xacro:avalanche_victim_macro>
+    
+
+    <xacro:skis_macro name="Ski2" fixed_frame="world">
+        <origin xyz="63.26083755493164 25.056472778320312 -0.8255566954612732" rpy="0.3452059030532837 0.36137109994888306 -4.06899356842041"/>
+    </xacro:skis_macro>
+    
+
+    <xacro:skis_macro name="Ski" fixed_frame="world">
+        <origin xyz="63.07988739013672 24.817398071289062 -1.0444105863571167" rpy="1.7561566829681396 -0.0 -2.244967222213745"/>
+    </xacro:skis_macro>
+    
+
+    <xacro:pylon_macro name="Pylon.005" fixed_frame="world">
+        <origin xyz="-15.2996187210083 -1.9623785018920898 12.70404052734375" rpy="0.0 -0.0 0.02496028132736683"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:pylon_macro name="Pylon.004" fixed_frame="world">
+        <origin xyz="-2.270540237426758 7.577995300292969 16.145389556884766" rpy="0.0 -0.0 -1.2191201448440552"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:pylon_macro name="Pylon.003" fixed_frame="world">
+        <origin xyz="20.65705680847168 2.968623399734497 5.210490703582764" rpy="0.0 -0.0 -1.2191201448440552"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:pylon_macro name="Pylon.002" fixed_frame="world">
+        <origin xyz="52.34560775756836 5.317626953125 -3.568678379058838" rpy="0.0 -0.0 -0.7977479100227356"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:pylon_macro name="Pylon.001" fixed_frame="world">
+        <origin xyz="74.17167663574219 43.29271697998047 -9.011053085327148" rpy="0.0 -0.0 -0.7977479100227356"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:cabin_macro name="Cabin" fixed_frame="world">
+        <origin xyz="-15.415206909179688 -10.65507984161377 14.040825843811035" rpy="0.0 -0.0 0.2599726617336273"/>
+    </xacro:cabin_macro>
+    
+
+    <xacro:cabin_broken_macro name="Cabin_broken" fixed_frame="world">
+        <origin xyz="47.46967697143555 10.965880393981934 -2.2373294830322266" rpy="0.0 -0.0 0.9782958626747131"/>
+    </xacro:cabin_broken_macro>
+    
+
+    <xacro:bench_broken_macro name="Bench_broken" fixed_frame="world">
+        <origin xyz="50.302757263183594 60.62278747558594 -14.798428535461426" rpy="6.133472063574175e-10 0.3187488913536072 -2.737746477127075"/>
+    </xacro:bench_broken_macro>
+    
+
+    <xacro:bench_macro name="Bench" fixed_frame="world">
+        <origin xyz="59.24348449707031 -20.058692932128906 3.8210206031799316" rpy="0.0 -0.0 -4.135028839111328"/>
+    </xacro:bench_macro>
+    
+
+    <xacro:pylon_macro name="Pylon" fixed_frame="world">
+        <origin xyz="93.92854309082031 77.9093246459961 -13.27497673034668" rpy="0.0 -0.0 -0.7977479100227356"/>
+    </xacro:pylon_macro>
+    
+
+    <xacro:pylon_broken_macro name="Pylon_broken" fixed_frame="world">
+        <origin xyz="63.54434585571289 24.55428695678711 -2.106257438659668" rpy="0.0 -0.0 -0.23951448500156403"/>
+    </xacro:pylon_broken_macro>
+    
+
+    
+</robot>
