@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<launch>
+  <group ns="donkey">
+      <include file="$(find iai_sherpa_donkey)/launch/spawn_donkey.launch">
+      <arg name="tf_prefix" default="donkey"/>
+      <arg name="name" default="donkey"/>
+	    <arg name="x" value="-26.929"/>
+	    <arg name="y" value="-15.3826"/>
+	    <arg name="z" value="14.0378"/>
+      </include>  
+  </group>
+</launch>

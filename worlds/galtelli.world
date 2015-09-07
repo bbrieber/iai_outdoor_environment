@@ -1,0 +1,2541 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="galtelli_mountains">
+    <scene>
+      <sky>
+        <clouds>
+          <speed>12</speed>
+        </clouds>
+      </sky>
+    </scene>
+    
+    <include>
+      <uri>model://sun</uri>
+    </include>
+        
+    <include>
+      <uri>model://galtelli_small</uri>
+    </include>
+    
+    <include>
+      <name>BroadLeaved.300</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>89.42707824707031 92.21614837646484 -16.292625427246094 0.0 0.0 -0.6783775235429386</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.299</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>89.11224365234375 90.947509765625 -16.1036376953125 0.0 0.0 3.5885526836288197</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.298</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>83.91387176513672 91.99253845214844 -16.343090057373047 0.0 0.0 2.609109990370053</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.297</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>86.08314514160156 91.45732116699219 -16.46808624267578 0.0 0.0 0.9011747980741123</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.296</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>85.0306167602539 82.78424072265625 -13.750694274902344 0.0 0.0 2.9690738294085564</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.295</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>87.51473236083984 83.51766967773438 -14.237593650817871 0.0 0.0 0.39685571642762474</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.294</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.97125244140625 94.24639892578125 -17.394153594970703 0.0 0.0 1.605488339943816</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.293</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>80.94898223876953 90.947509765625 -16.366384506225586 0.0 0.0 3.498357489193419</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.292</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.74764251708984 87.51472473144531 -15.751153945922852 0.0 0.0 3.3362353030815277</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.291</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>82.00151062011719 87.37568664550781 -15.163013458251953 0.0 0.0 3.3974334376041084</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.290</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>80.94898223876953 82.78424072265625 -13.882071495056152 0.0 0.0 1.2383749524433667</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.288</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>83.2940673828125 81.26380157470703 -13.529407501220703 0.0 0.0 -1.9875492592827062</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.287</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>82.31634521484375 80.48106384277344 -13.529407501220703 0.0 0.0 2.829627415286837</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.286</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.83223724365234 79.74763488769531 -13.875371932983398 0.0 0.0 1.3176174279986888</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.285</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.97125244140625 77.91986083984375 -13.848661422729492 0.0 0.0 -1.3728421504725095</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.284</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>78.23470306396484 80.48106384277344 -14.182351112365723 0.0 0.0 -2.798713412201711</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.283</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.35440826416016 79.83222961425781 -14.389852523803711 0.0 0.0 2.9342978052830637</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.280</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.35440826416016 71.66896057128906 -13.674116134643555 0.0 0.0 4.016133282293868</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.279</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>41.18517303466797 91.45732116699219 -14.958163261413574 0.0 0.0 2.8595011454887858</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.278</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>49.66327667236328 92.72596740722656 -14.961904525756836 0.0 0.0 0.7425043487329654</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.277</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>47.094581604003906 91.59635925292969 -14.961906433105469 0.0 0.0 1.4222559261449752</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.276</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>49.34843826293945 91.45732116699219 -14.961904525756836 0.0 0.0 0.4543025753948098</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.275</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>50.13117980957031 86.39796447753906 -14.961904525756836 0.0 0.0 -0.576656571008892</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.274</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>43.0129508972168 95.67798614501953 -14.946807861328125 0.0 0.0 2.114826115060803</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.273</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>43.2365608215332 94.24639892578125 -14.857776641845703 0.0 0.0 4.038760220450408</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.272</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>45.58164596557617 96.8075942993164 -14.961904525756836 0.0 0.0 1.584408528469838</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.271</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-75.26982116699219 -83.51768493652344 -11.306279182434082 0.0 0.0 0.5698895337559824</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.269</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-78.7026138305664 -82.31634521484375 -11.903030395507812 0.0 0.0 2.8988300256271535</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.263</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-84.56269073486328 -72.78571319580078 -10.152179718017578 0.0 0.0 -0.6509465254287923</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.261</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-75.13079071044922 -56.77401351928711 -4.3641767501831055 0.0 0.0 -3.0966046191683017</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.255</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-79.2124252319336 -69.01891326904297 -8.605758666992188 0.0 0.0 -0.26721015485403754</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.254</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-82.31633758544922 -55.99127197265625 -7.3862714767456055 0.0 0.0 -1.8322105625412226</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.253</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-79.83222961425781 -55.25784683227539 -6.931189060211182 0.0 0.0 0.38872535972711164</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.251</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-86.86587524414062 -49.66327667236328 -11.014547348022461 0.0 0.0 -1.6590111548570659</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.250</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-87.51472473144531 -54.946250915527344 -10.476075172424316 0.0 0.0 3.712988185685281</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.249</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-84.0528793334961 -57.51171112060547 -7.647051811218262 0.0 0.0 3.620003165962675</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.248</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-86.39796447753906 -64.154541015625 -8.172552108764648 0.0 0.0 -2.640181284327752</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.247</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-87.9954833984375 -63.42111587524414 -9.36180591583252 0.0 0.0 0.504190359151389</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.246</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-90.16476440429688 -66.967529296875 -11.173340797424316 0.0 0.0 -1.5445155462259548</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.242</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-45.58164596557617 -80.48107147216797 -8.556352615356445 0.0 0.0 -1.9644706760869255</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.241</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-43.01294708251953 -83.43309783935547 -8.946660041809082 0.0 0.0 1.2289348144669447</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.240</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-50.64099884033203 -77.18217468261719 -7.505744457244873 0.0 0.0 -0.202193417472877</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.239</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-48.29591369628906 -78.7026138305664 -8.088679313659668 0.0 0.0 2.5609086614373155</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.237</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-49.34843826293945 -87.37570190429688 -9.96954345703125 0.0 0.0 -1.0423145042595823</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.232</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-51.17620849609375 -87.51473236083984 -10.088422775268555 0.0 0.0 2.042504413566269</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.231</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-52.69237518310547 -88.134521484375 -10.253557205200195 0.0 0.0 3.312295301916205</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.230</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-54.21281433105469 -90.47960662841797 -11.212510108947754 0.0 0.0 -0.9361851866083097</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.226</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-63.10951614379883 -87.99549865722656 -9.17190933227539 0.0 0.0 -1.7913110442999065</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.225</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-60.855648040771484 -88.134521484375 -9.176581382751465 0.0 0.0 -0.32046661778556196</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.224</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-70.07144165039062 -76.39942932128906 -6.9730224609375 0.0 0.0 2.5236569181704636</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.223</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-59.02787780761719 -71.66896057128906 -3.1061768531799316 0.0 0.0 -0.28333770978401684</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.221</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-47.828006744384766 -60.54081726074219 -1.8417315483093262 0.0 0.0 3.965350051703004</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.217</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-51.26079559326172 -63.42111587524414 -0.9301039576530457 0.0 0.0 3.4739203111867227</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.213</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-59.56308364868164 -49.34843826293945 2.15397310256958 0.0 0.0 0.3783083489862018</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.211</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-63.42110824584961 -50.780025482177734 0.568420946598053 0.0 0.0 3.785050480786595</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.208</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-67.10655975341797 -63.10951614379883 -1.0519483089447021 0.0 0.0 -1.520129047667952</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.206</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-68.7040786743164 -50.13117980957031 -2.222062110900879 0.0 0.0 -2.48347761284122</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.204</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-69.75660705566406 -58.80426788330078 -2.1536707878112793 0.0 0.0 1.5487454164146235</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.201</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-59.56308364868164 -45.266807556152344 3.1695475578308105 0.0 0.0 -2.220128370912743</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.199</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-18.60773468017578 -75.66600799560547 -6.110673427581787 0.0 0.0 1.2541708413808474</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.198</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-18.74675941467285 -86.08314514160156 -9.44974422454834 0.0 0.0 1.901459669332548</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.196</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-22.208595275878906 -91.68094635009766 -13.092218399047852 0.0 0.0 3.3982512864248284</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.193</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-34.84967803955078 -79.35145568847656 -8.785500526428223 0.0 0.0 2.110714112936305</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.191</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-40.13264465332031 -78.7026138305664 -9.375144958496094 0.0 0.0 -0.1833990136229593</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.190</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-39.015899658203125 -79.74764251708984 -9.801219940185547 0.0 0.0 -0.8736587279883699</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.187</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-26.37481689453125 -71.66896057128906 -3.053842544555664 0.0 0.0 -0.04078535067887312</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.186</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-24.120948791503906 -71.8079833984375 -3.3196792602539062 0.0 0.0 3.513543956597624</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.185</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-31.969383239746094 -74.62097930908203 -4.452788829803467 0.0 0.0 0.36965104258779125</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.184</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-34.453495025634766 -75.35440826416016 -6.483214378356934 0.0 0.0 1.5640984067982946</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.183</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-35.07329177856445 -73.83824157714844 -3.417085647583008 0.0 0.0 3.430178292868655</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.179</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-17.478120803833008 -57.82654571533203 -3.7308003902435303 0.0 0.0 -2.5447012052771236</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.178</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-22.293182373046875 -51.26079559326172 2.0273277759552 0.0 0.0 -2.6715273387386005</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.175</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-18.523147583007812 -67.10655975341797 -3.5276002883911133 0.0 0.0 3.346331483598744</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.174</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-18.746761322021484 -69.75660705566406 -3.382383346557617 0.0 0.0 2.503238888029171</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.172</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-22.689367294311523 -59.339481353759766 -4.147873401641846 0.0 0.0 2.308475201093579</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.171</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-22.828393936157227 -61.593345642089844 -3.97230863571167 0.0 0.0 0.7971604718475822</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.170</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-25.173479080200195 -64.154541015625 -2.739314317703247 0.0 0.0 -1.7865108436432355</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.168</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-28.202585220336914 -55.4814567565918 -2.302764892578125 0.0 0.0 1.4483185763353341</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.165</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-38.396095275878906 -60.855648040771484 -2.7703819274902344 0.0 0.0 2.427978532155596</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.164</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-35.583106994628906 -64.62244415283203 -1.43816339969635 0.0 0.0 3.867242518148698</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.163</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-34.84967803955078 -67.10655975341797 -0.8513973355293274 0.0 0.0 3.6605807379845294</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.162</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-36.365848541259766 -67.72634887695312 -0.843956470489502 0.0 0.0 1.3239255965225643</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.161</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-35.583106994628906 -68.7040786743164 -0.8383665680885315 0.0 0.0 4.131078811634815</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.160</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-38.535125732421875 -71.27278137207031 -1.7147399187088013 0.0 0.0 0.2844612279655254</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.159</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-40.447479248046875 -51.39982223510742 -0.47392797470092773 0.0 0.0 -0.20242888041516638</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.156</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-40.447479248046875 -67.72634887695312 -1.2798850536346436 0.0 0.0 2.090266593223364</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.154</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>5.882063865661621 -75.66600799560547 -3.071049928665161 0.0 0.0 -2.794740253237942</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.153</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>5.743035793304443 -77.91986846923828 -3.6048147678375244 0.0 0.0 -2.7943356009731133</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.152</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>2.930044412612915 -82.31634521484375 -5.234835147857666 0.0 0.0 -0.9708211371755406</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.151</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>5.966650009155273 -91.59635925292969 -4.583365440368652 0.0 0.0 -2.879188567579558</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.150</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>0.3688473701477051 -84.05288696289062 -6.341132164001465 0.0 0.0 2.7234386566733257</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.148</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-5.882063865661621 -91.68094635009766 -9.515457153320312 0.0 0.0 -1.2160194968296636</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.145</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-10.048284530639648 -87.99549865722656 -10.226691246032715 0.0 0.0 -1.947698519413242</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.144</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-6.501861572265625 -90.1647720336914 -9.698860168457031 0.0 0.0 2.880689374866584</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.140</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-13.396484375 -86.39797973632812 -9.45124340057373 0.0 0.0 -1.5242323799280002</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.139</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>5.882063865661621 -71.58438110351562 -2.6276233196258545 0.0 0.0 -2.231347512377095</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.137</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-1.151587724685669 -74.153076171875 -4.577823162078857 0.0 0.0 3.7506951838771427</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.134</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-8.846946716308594 -72.31780242919922 -2.9495956897735596 0.0 0.0 -0.9600362494114649</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.132</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>11.87605094909668 -62.885902404785156 0.25530844926834106 0.0 0.0 1.743263482769866</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.125</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-2.930044412612915 -68.7040786743164 -3.9706151485443115 0.0 0.0 1.1364564066714204</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.124</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-10.048284530639648 -51.26079559326172 2.2623822689056396 0.0 0.0 0.2531467462824346</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.123</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-9.824668884277344 -56.77401351928711 -2.717982292175293 0.0 0.0 1.8508466032578732</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.122</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>-8.846946716308594 -60.07291030883789 -4.723870277404785 0.0 0.0 0.9674557604915504</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.117</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>33.021907806396484 -75.88961791992188 8.447457313537598 0.0 0.0 -1.3169163378328654</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.116</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>27.88774871826172 -80.48107147216797 5.1607866287231445 0.0 0.0 3.540339964885996</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.114</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>24.120948791503906 -79.21243286132812 2.8884177207946777 0.0 0.0 -2.9842223480655425</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.113</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>25.641386032104492 -80.94898223876953 3.605039119720459 0.0 0.0 0.36850654739482946</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.109</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>14.52609920501709 -79.43605041503906 -0.11124278604984283 0.0 0.0 -1.3849284676475653</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.108</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>14.66512680053711 -81.2638168334961 -0.05026349425315857 0.0 0.0 -0.09993892363370493</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.107</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>17.01021385192871 -82.78424835205078 0.8509829640388489 0.0 0.0 -2.973775501954312</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.106</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>18.126962661743164 -83.82927703857422 1.280168890953064 0.0 0.0 2.74315155259915</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.105</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>15.957682609558105 -91.45732879638672 0.8386457562446594 0.0 0.0 -1.854624766865621</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.104</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>31.969375610351562 -72.31780242919922 8.02053451538086 0.0 0.0 1.5513896211750313</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.102</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>40.447479248046875 -71.04916381835938 9.142783164978027 0.0 0.0 -0.6363183521042486</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.101</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>31.969375610351562 -64.154541015625 7.384313106536865 0.0 0.0 2.841809092043635</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.097</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>26.686412811279297 -59.424068450927734 5.255478858947754 0.0 0.0 1.4606861138299272</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.093</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>20.03931427001953 -58.80426788330078 3.407616138458252 0.0 0.0 -0.6633533209836724</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.090</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>14.66512680053711 -69.01891326904297 0.7320313453674316 0.0 0.0 1.7566766162135097</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.087</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>42.47773361206055 -0.3688473701477051 0.05821548402309418 0.0 0.0 -1.7379002372350827</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.086</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>41.967918395996094 -3.397951126098633 0.7121341824531555 0.0 0.0 2.2380938388488967</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.085</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>42.701351165771484 -5.882063865661621 0.609070897102356 0.0 0.0 -2.210513341948078</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.084</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>40.447479248046875 -5.743035793304443 1.0278117656707764 0.0 0.0 -2.1428083224607937</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.083</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>41.967918395996094 -7.479583740234375 0.7679792642593384 0.0 0.0 -2.575159738346015</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.082</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>38.931312561035156 -10.444467544555664 1.502875566482544 0.0 0.0 0.018181794882849545</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.081</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>41.18517303466797 -10.583494186401367 1.2433182001113892 0.0 0.0 -2.2328636004738907</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.080</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>37.418373107910156 7.011676788330078 0.3039337992668152 0.0 0.0 3.832153376861321</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.079</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>34.934261322021484 2.1966147422790527 1.6396950483322144 0.0 0.0 -2.1007410931895603</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.078</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>36.3658447265625 -5.743035793304443 1.9227701425552368 0.0 0.0 1.4144096200224427</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.077</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>37.88628387451172 -7.479583740234375 1.5828953981399536 0.0 0.0 2.253773934073681</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.076</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>30.768041610717773 5.882063865661621 2.8648741245269775 0.0 0.0 1.70113185598905</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.075</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>33.02190399169922 5.743035793304443 2.0282082557678223 0.0 0.0 -2.393220850434785</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.074</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>31.501468658447266 -0.6836812496185303 3.544132709503174 0.0 0.0 3.4880857817363364</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.073</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>30.456445693969727 6.362833499908447 2.965475082397461 0.0 0.0 -2.6720021163992436</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.072</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>28.202579498291016 6.501861572265625 3.5977933406829834 0.0 0.0 3.4293701072554392</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.071</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>27.419837951660156 7.479582786560059 3.3520195484161377 0.0 0.0 2.7079764928955634</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.070</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>26.686412811279297 1.800431251525879 3.7879395484924316 0.0 0.0 2.661889749486573</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.069</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>26.151199340820312 7.794417381286621 3.531909227371216 0.0 0.0 -2.5988268673511996</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.068</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>27.887746810913086 17.478120803833008 -0.15467190742492676 0.0 0.0 0.2636412970477653</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.063</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>69.01891326904297 -58.80426788330078 10.642562866210938 0.0 0.0 -2.524304130748053</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.060</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>67.72634887695312 -64.93728637695312 9.826560974121094 0.0 0.0 0.8913353096507364</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.058</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>63.505699157714844 -50.8646125793457 9.239493370056152 0.0 0.0 -1.7385710661192384</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.056</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>64.154541015625 -53.744903564453125 9.386557579040527 0.0 0.0 -2.1313327547000345</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.051</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>61.593345642089844 -51.39982223510742 8.89441204071045 0.0 0.0 3.4901833753621925</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.050</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>60.54081726074219 -55.99127197265625 8.692161560058594 0.0 0.0 0.5761969597880343</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.048</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>59.56309509277344 -60.855648040771484 8.559082984924316 0.0 0.0 3.4665644531852116</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.047</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>60.07291030883789 -61.908180236816406 8.714938163757324 0.0 0.0 -1.0822595986874348</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.046</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>63.02492904663086 -63.42111587524414 8.793600082397461 0.0 0.0 -1.2514795136039016</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.043</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>58.94329833984375 -55.25784683227539 8.385183334350586 0.0 0.0 -1.664268956122749</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.038</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>56.45918273925781 -43.746376037597656 6.902245998382568 0.0 0.0 -0.256895427740953</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.037</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>54.861663818359375 -43.01294708251953 6.492656230926514 0.0 0.0 2.2691803999476723</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.036</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>52.69237518310547 -46.559364318847656 6.790410995483398 0.0 0.0 3.751239730692505</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.034</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>67.58732604980469 -38.619712829589844 9.9401273727417 0.0 0.0 -0.9665528146312719</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.032</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>70.07144165039062 -41.967918395996094 10.073198318481445 0.0 0.0 -2.7938759614525774</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.029</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>64.154541015625 -41.5000114440918 9.557432174682617 0.0 0.0 4.127405556563067</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.027</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>55.4814567565918 -40.447479248046875 6.472617149353027 0.0 0.0 -2.046624557622795</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.026</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>57.8265495300293 -41.967918395996094 7.067314147949219 0.0 0.0 -1.408828849956839</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.025</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>43.0129508972168 1.800431251525879 -0.335030734539032 0.0 0.0 3.286977042089862</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.024</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>45.266807556152344 -2.420228958129883 0.059694334864616394 0.0 0.0 -1.3378532491748938</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.022</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.66600799560547 -67.58732604980469 11.594812393188477 0.0 0.0 3.6578279057367413</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.020</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>74.62097930908203 -56.45918273925781 12.052571296691895 0.0 0.0 -0.6180782420961917</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.019</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.35440826416016 -58.94329833984375 12.327959060668945 0.0 0.0 3.419208204716274</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.018</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.13079071044922 -61.593345642089844 12.305213928222656 0.0 0.0 3.241911708423348</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.015</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>75.13079071044922 -65.67498016357422 11.863811492919922 0.0 0.0 2.8715903942228276</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.014</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>74.153076171875 -66.45771026611328 11.496445655822754 0.0 0.0 3.304248897459544</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.013</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>71.58438110351562 -67.58732604980469 11.130359649658203 0.0 0.0 -2.7239737601250384</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.012</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>77.29707336425781 -38.36336135864258 7.85567569732666 0.0 0.0 -1.1839456559321557</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.011</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>74.17107391357422 -33.8070068359375 6.645229816436768 0.0 0.0 0.21309606193698016</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.009</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>86.08314514160156 54.72262954711914 -7.1819915771484375 0.0 0.0 -1.1070457923333286</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.008</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>86.86588287353516 49.66327667236328 -5.54014253616333 0.0 0.0 -1.4713123702759332</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.006</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>82.00151062011719 54.72262954711914 -8.608866691589355 0.0 0.0 1.328609455200081</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.005</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>82.78424835205078 49.66327667236328 -6.814294815063477 0.0 0.0 -2.2200707646101603</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.004</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.74764251708984 46.69839859008789 -7.148831844329834 0.0 0.0 0.10997697910620907</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.003</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>79.21243286132812 52.69237518310547 -8.935142517089844 0.0 0.0 -1.2863762104733047</pose>
+    </include>
+    
+    
+    <include>
+      <name>BroadLeaved.002</name>
+      <uri>model://broad_leaved_tree</uri>
+      <pose>76.39942932128906 44.21428298950195 -7.402990341186523 0.0 0.0 3.413494674917947</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.288</name>
+      <uri>model://conifer</uri>
+      <pose>-82.85456085205078 -71.72285461425781 -9.821743965148926 0.0 0.0 0.6250232137884195</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.285</name>
+      <uri>model://conifer</uri>
+      <pose>-74.31416320800781 -54.62744903564453 -4.0377888679504395 0.0 0.0 3.3325324179249294</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.284</name>
+      <uri>model://conifer</uri>
+      <pose>-72.74432373046875 -56.55091857910156 -3.384180784225464 0.0 0.0 0.8693640331983068</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.281</name>
+      <uri>model://conifer</uri>
+      <pose>-73.21292877197266 -65.76144409179688 -4.438614845275879 0.0 0.0 -1.3571492427093628</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.277</name>
+      <uri>model://conifer</uri>
+      <pose>-82.28794860839844 -57.43679428100586 -7.380816459655762 0.0 0.0 -1.333687235329431</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.272</name>
+      <uri>model://conifer</uri>
+      <pose>-87.7779541015625 -54.22314453125 -10.812714576721191 0.0 0.0 -1.4672340316188461</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.268</name>
+      <uri>model://conifer</uri>
+      <pose>-48.295005798339844 -75.53399658203125 -7.181633949279785 0.0 0.0 3.6191564852608527</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.260</name>
+      <uri>model://conifer</uri>
+      <pose>-62.55620574951172 -84.32771301269531 -7.289475440979004 0.0 0.0 0.41700670304152476</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.259</name>
+      <uri>model://conifer</uri>
+      <pose>-60.97545623779297 -85.0410385131836 -7.387372016906738 0.0 0.0 -2.9266424580523527</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.258</name>
+      <uri>model://conifer</uri>
+      <pose>-66.40752410888672 -84.85786437988281 -8.39494514465332 0.0 0.0 3.4459300318745245</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.255</name>
+      <uri>model://conifer</uri>
+      <pose>-50.583282470703125 -74.68668365478516 -6.203049659729004 0.0 0.0 -1.6155386384956134</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.250</name>
+      <uri>model://conifer</uri>
+      <pose>-47.72719955444336 -49.229225158691406 2.3196043968200684 0.0 0.0 0.10484762008708559</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.244</name>
+      <uri>model://conifer</uri>
+      <pose>-52.848182678222656 -66.79107666015625 -1.6355023384094238 0.0 0.0 -1.9170655432310129</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.241</name>
+      <uri>model://conifer</uri>
+      <pose>-58.12134552001953 -70.08943939208984 -3.1113667488098145 0.0 0.0 -2.938854260887973</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.240</name>
+      <uri>model://conifer</uri>
+      <pose>-60.52056121826172 -52.39646530151367 1.119673252105713 0.0 0.0 -1.9367764553726</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.237</name>
+      <uri>model://conifer</uri>
+      <pose>-65.47373962402344 -54.18983840942383 -1.3315377235412598 0.0 0.0 0.1963191923141956</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.236</name>
+      <uri>model://conifer</uri>
+      <pose>-67.31846618652344 -65.95321655273438 -1.6227574348449707 0.0 0.0 -1.1852567659556996</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.231</name>
+      <uri>model://conifer</uri>
+      <pose>-68.84808349609375 -70.93762969970703 -4.417501926422119 0.0 0.0 -1.2002847179673921</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.227</name>
+      <uri>model://conifer</uri>
+      <pose>-63.25788497924805 -43.16078567504883 2.100938081741333 0.0 0.0 0.9510309162879245</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.225</name>
+      <uri>model://conifer</uri>
+      <pose>-64.66188049316406 -43.07367706298828 1.3101849555969238 0.0 0.0 -1.4054258420403145</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.224</name>
+      <uri>model://conifer</uri>
+      <pose>-51.70366668701172 37.58821105957031 3.128159523010254 0.0 0.0 2.5451466533953515</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.222</name>
+      <uri>model://conifer</uri>
+      <pose>-51.86399841308594 29.646930694580078 3.4308059215545654 0.0 0.0 3.453337868542642</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.221</name>
+      <uri>model://conifer</uri>
+      <pose>-52.320701599121094 26.797679901123047 3.677985429763794 0.0 0.0 3.8385982096100553</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.218</name>
+      <uri>model://conifer</uri>
+      <pose>-53.230587005615234 56.784393310546875 -1.0634933710098267 0.0 0.0 -0.3335387818404012</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.217</name>
+      <uri>model://conifer</uri>
+      <pose>-53.29161071777344 53.14627456665039 -1.3271212577819824 0.0 0.0 2.7712577554215225</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.215</name>
+      <uri>model://conifer</uri>
+      <pose>-53.477455139160156 52.1885986328125 -0.965283215045929 0.0 0.0 3.1347073398346192</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.214</name>
+      <uri>model://conifer</uri>
+      <pose>-55.155723571777344 55.79248809814453 -1.3137906789779663 0.0 0.0 4.123138890031051</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.213</name>
+      <uri>model://conifer</uri>
+      <pose>-58.377662658691406 55.527366638183594 -1.298957109451294 0.0 0.0 -0.021030625535154</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.212</name>
+      <uri>model://conifer</uri>
+      <pose>-58.87934494018555 51.350833892822266 -0.744809091091156 0.0 0.0 -1.5151281914952477</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.211</name>
+      <uri>model://conifer</uri>
+      <pose>-60.68367385864258 52.941505432128906 -1.0382977724075317 0.0 0.0 2.7744535115589444</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.205</name>
+      <uri>model://conifer</uri>
+      <pose>-22.636093139648438 -79.55533599853516 -6.768947601318359 0.0 0.0 0.08099894280347542</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.204</name>
+      <uri>model://conifer</uri>
+      <pose>-24.922395706176758 -78.41851806640625 -5.088239669799805 0.0 0.0 3.814590950601684</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.201</name>
+      <uri>model://conifer</uri>
+      <pose>-28.877330780029297 -85.50588989257812 -10.163472175598145 0.0 0.0 0.46038342560406775</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.200</name>
+      <uri>model://conifer</uri>
+      <pose>-29.913814544677734 -86.00326538085938 -10.77273941040039 0.0 0.0 -0.13150072742696217</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.199</name>
+      <uri>model://conifer</uri>
+      <pose>-31.148908615112305 -82.00739288330078 -7.862683296203613 0.0 0.0 0.6063597529729479</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.198</name>
+      <uri>model://conifer</uri>
+      <pose>-33.79254913330078 -85.49275207519531 -10.82923698425293 0.0 0.0 -0.8561126829933188</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.197</name>
+      <uri>model://conifer</uri>
+      <pose>-35.39030456542969 -83.54802703857422 -10.039169311523438 0.0 0.0 1.2457732876967635</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.196</name>
+      <uri>model://conifer</uri>
+      <pose>-20.379228591918945 -75.17948913574219 -5.602933883666992 0.0 0.0 1.4054357394545147</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.194</name>
+      <uri>model://conifer</uri>
+      <pose>-38.56847381591797 -74.94876098632812 -6.430445194244385 0.0 0.0 3.5560460190694854</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.192</name>
+      <uri>model://conifer</uri>
+      <pose>-16.82498550415039 -51.19377136230469 2.185864210128784 0.0 0.0 0.5751031323993137</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.190</name>
+      <uri>model://conifer</uri>
+      <pose>-20.07156753540039 -56.637908935546875 -2.8727667331695557 0.0 0.0 -0.3621567358417179</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.189</name>
+      <uri>model://conifer</uri>
+      <pose>-29.681684494018555 -51.48394775390625 0.9818058013916016 0.0 0.0 0.5046803520843963</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.188</name>
+      <uri>model://conifer</uri>
+      <pose>-28.938819885253906 -63.745849609375 -2.30222225189209 0.0 0.0 -2.2969385036278274</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.186</name>
+      <uri>model://conifer</uri>
+      <pose>-32.197593688964844 -54.687808990478516 -2.286574125289917 0.0 0.0 -2.5371631260174152</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.185</name>
+      <uri>model://conifer</uri>
+      <pose>-33.734352111816406 -59.621517181396484 -3.3756296634674072 0.0 0.0 4.130322492336573</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.184</name>
+      <uri>model://conifer</uri>
+      <pose>-30.681257247924805 -60.64551544189453 -3.2319376468658447 0.0 0.0 0.6395476727749467</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.182</name>
+      <uri>model://conifer</uri>
+      <pose>-38.2252197265625 -52.60868453979492 -1.4185625314712524 0.0 0.0 4.095910391881585</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.180</name>
+      <uri>model://conifer</uri>
+      <pose>-35.120513916015625 -64.79590606689453 -1.3600671291351318 0.0 0.0 2.926339200677593</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.179</name>
+      <uri>model://conifer</uri>
+      <pose>-35.55964279174805 -68.22006225585938 -0.831129789352417 0.0 0.0 2.996964376607291</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.178</name>
+      <uri>model://conifer</uri>
+      <pose>-39.32414627075195 -49.9522705078125 1.2122468948364258 0.0 0.0 -0.02867057953301666</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.177</name>
+      <uri>model://conifer</uri>
+      <pose>-40.86027526855469 -50.6462287902832 0.3065091073513031 0.0 0.0 -0.46573414786158773</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.176</name>
+      <uri>model://conifer</uri>
+      <pose>-40.09819412231445 -58.77719497680664 -3.5674595832824707 0.0 0.0 3.555492425459239</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.175</name>
+      <uri>model://conifer</uri>
+      <pose>-42.36438751220703 -64.64173126220703 -2.1501805782318115 0.0 0.0 -1.2329143732429773</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.174</name>
+      <uri>model://conifer</uri>
+      <pose>-15.83948802947998 -22.929546356201172 14.337414741516113 0.0 0.0 -1.730661912713865</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.171</name>
+      <uri>model://conifer</uri>
+      <pose>-35.6340446472168 -26.573253631591797 11.07847785949707 0.0 0.0 0.7126238894143571</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.168</name>
+      <uri>model://conifer</uri>
+      <pose>-17.395492553710938 6.800383567810059 14.447607040405273 0.0 0.0 -2.7454487751481187</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.167</name>
+      <uri>model://conifer</uri>
+      <pose>-16.352048873901367 4.421964645385742 14.235367774963379 0.0 0.0 0.9753577868496799</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.166</name>
+      <uri>model://conifer</uri>
+      <pose>-15.077232360839844 4.3614068031311035 14.289212226867676 0.0 0.0 -1.2219642621898095</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.161</name>
+      <uri>model://conifer</uri>
+      <pose>-23.949710845947266 -1.2909724712371826 13.994131088256836 0.0 0.0 -2.1334756981765053</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.158</name>
+      <uri>model://conifer</uri>
+      <pose>-24.632076263427734 -6.556891918182373 14.035497665405273 0.0 0.0 -2.0918863925363986</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.156</name>
+      <uri>model://conifer</uri>
+      <pose>-26.644227981567383 6.592554092407227 12.289642333984375 0.0 0.0 -1.898305540513664</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.155</name>
+      <uri>model://conifer</uri>
+      <pose>-27.218990325927734 5.41938591003418 12.179443359375 0.0 0.0 1.966325147867361</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.153</name>
+      <uri>model://conifer</uri>
+      <pose>-30.062652587890625 -3.24755597114563 13.64495849609375 0.0 0.0 -0.7471801699849756</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.152</name>
+      <uri>model://conifer</uri>
+      <pose>-34.5706672668457 -2.433396816253662 11.616105079650879 0.0 0.0 1.5958465047589168</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.150</name>
+      <uri>model://conifer</uri>
+      <pose>-32.0234260559082 -3.4104771614074707 13.178974151611328 0.0 0.0 2.047886114973251</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.148</name>
+      <uri>model://conifer</uri>
+      <pose>-33.8554573059082 -10.439017295837402 13.895906448364258 0.0 0.0 -0.7482333851376133</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.144</name>
+      <uri>model://conifer</uri>
+      <pose>-36.20449447631836 -11.662199974060059 12.997143745422363 0.0 0.0 3.7288280008715575</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.139</name>
+      <uri>model://conifer</uri>
+      <pose>-40.11922073364258 -8.548506736755371 10.870519638061523 0.0 0.0 0.17233594890146087</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.135</name>
+      <uri>model://conifer</uri>
+      <pose>-28.542640686035156 10.66455078125 10.851487159729004 0.0 0.0 -1.1144326953246746</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.132</name>
+      <uri>model://conifer</uri>
+      <pose>-31.7193546295166 13.01860237121582 9.606499671936035 0.0 0.0 3.501966616604665</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.128</name>
+      <uri>model://conifer</uri>
+      <pose>-14.937307357788086 25.696914672851562 13.222884178161621 0.0 0.0 1.1286932126118736</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.127</name>
+      <uri>model://conifer</uri>
+      <pose>-14.411622047424316 15.863363265991211 12.915182113647461 0.0 0.0 -2.460689009203138</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.126</name>
+      <uri>model://conifer</uri>
+      <pose>-21.093435287475586 29.82302474975586 10.50208854675293 0.0 0.0 1.901262339880145</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.125</name>
+      <uri>model://conifer</uri>
+      <pose>-19.45368766784668 28.08072280883789 11.837726593017578 0.0 0.0 0.6512125827111057</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.121</name>
+      <uri>model://conifer</uri>
+      <pose>-24.227630615234375 37.308799743652344 7.7469048500061035 0.0 0.0 -0.003123044460114688</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.120</name>
+      <uri>model://conifer</uri>
+      <pose>-25.817045211791992 33.648799896240234 7.810474395751953 0.0 0.0 -1.5063080389413812</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.118</name>
+      <uri>model://conifer</uri>
+      <pose>-23.37374496459961 21.95905303955078 11.05678653717041 0.0 0.0 2.064460007064129</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.117</name>
+      <uri>model://conifer</uri>
+      <pose>-28.09231948852539 37.235328674316406 5.921479225158691 0.0 0.0 -2.5312862507803637</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.115</name>
+      <uri>model://conifer</uri>
+      <pose>-29.310073852539062 30.156803131103516 8.524574279785156 0.0 0.0 3.114621914775228</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.113</name>
+      <uri>model://conifer</uri>
+      <pose>-29.454051971435547 21.33066177368164 9.545454978942871 0.0 0.0 -2.8633790158392305</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.112</name>
+      <uri>model://conifer</uri>
+      <pose>-26.7380313873291 20.843931198120117 9.950523376464844 0.0 0.0 1.3321011135957384</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.107</name>
+      <uri>model://conifer</uri>
+      <pose>-33.93011474609375 28.971416473388672 6.379859924316406 0.0 0.0 2.2818548487793433</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.105</name>
+      <uri>model://conifer</uri>
+      <pose>-32.71552276611328 27.89451026916504 7.5324296951293945 0.0 0.0 0.24017471331577323</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.104</name>
+      <uri>model://conifer</uri>
+      <pose>-32.21080780029297 24.548601150512695 8.847371101379395 0.0 0.0 3.791389936322673</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.103</name>
+      <uri>model://conifer</uri>
+      <pose>-32.76579666137695 22.183048248291016 8.79047966003418 0.0 0.0 1.4744520111687032</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.101</name>
+      <uri>model://conifer</uri>
+      <pose>-36.616947174072266 30.89424705505371 5.064935207366943 0.0 0.0 1.606356162990346</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.100</name>
+      <uri>model://conifer</uri>
+      <pose>-35.340396881103516 21.504817962646484 7.560322284698486 0.0 0.0 2.2906368374446076</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.097</name>
+      <uri>model://conifer</uri>
+      <pose>-39.83600616455078 28.74467658996582 4.784636497497559 0.0 0.0 -2.500338823131366</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.095</name>
+      <uri>model://conifer</uri>
+      <pose>-19.129302978515625 39.7518310546875 9.922236442565918 0.0 0.0 3.5970821226941925</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.092</name>
+      <uri>model://conifer</uri>
+      <pose>-35.660064697265625 39.617408752441406 4.501767158508301 0.0 0.0 -2.1662680773981906</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.089</name>
+      <uri>model://conifer</uri>
+      <pose>-17.872081756591797 46.36763381958008 9.450434684753418 0.0 0.0 3.599657569397255</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.087</name>
+      <uri>model://conifer</uri>
+      <pose>-18.40772819519043 56.681095123291016 5.312470436096191 0.0 0.0 3.7787968497966706</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.084</name>
+      <uri>model://conifer</uri>
+      <pose>-19.595584869384766 49.945945739746094 6.687719345092773 0.0 0.0 0.4978041821997494</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.083</name>
+      <uri>model://conifer</uri>
+      <pose>-21.853057861328125 46.92068862915039 8.200971603393555 0.0 0.0 3.934011029945992</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.082</name>
+      <uri>model://conifer</uri>
+      <pose>-23.25880241394043 59.920082092285156 4.23537540435791 0.0 0.0 -0.7207779266442138</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.077</name>
+      <uri>model://conifer</uri>
+      <pose>-28.011333465576172 59.49071502685547 2.9862220287323 0.0 0.0 -2.8712232466598384</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.076</name>
+      <uri>model://conifer</uri>
+      <pose>-26.73163414001465 49.704105377197266 4.442948341369629 0.0 0.0 -0.2114798274704457</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.074</name>
+      <uri>model://conifer</uri>
+      <pose>-31.387252807617188 57.85186004638672 2.534250020980835 0.0 0.0 -0.9989721969466965</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.073</name>
+      <uri>model://conifer</uri>
+      <pose>-30.834739685058594 54.90272903442383 2.9996676445007324 0.0 0.0 -2.4440922324175562</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.069</name>
+      <uri>model://conifer</uri>
+      <pose>-30.920211791992188 43.08794021606445 3.486626148223877 0.0 0.0 -2.993975851191201</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.065</name>
+      <uri>model://conifer</uri>
+      <pose>-3.9388914108276367 -75.94181060791016 -5.64107608795166 0.0 0.0 0.2569056067950175</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.064</name>
+      <uri>model://conifer</uri>
+      <pose>-5.3048858642578125 -79.34192657470703 -6.731574535369873 0.0 0.0 -2.746258898171618</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.062</name>
+      <uri>model://conifer</uri>
+      <pose>-4.641678333282471 -89.70318603515625 -9.013123512268066 0.0 0.0 1.9433813295345153</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.060</name>
+      <uri>model://conifer</uri>
+      <pose>-6.837921142578125 -82.6328353881836 -7.859545707702637 0.0 0.0 -1.3093938033472787</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.058</name>
+      <uri>model://conifer</uri>
+      <pose>7.568338394165039 -75.21694946289062 -2.663336753845215 0.0 0.0 -1.416689439395137</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.056</name>
+      <uri>model://conifer</uri>
+      <pose>-9.04747200012207 -71.87843322753906 -2.872502088546753 0.0 0.0 2.6761218297731717</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.054</name>
+      <uri>model://conifer</uri>
+      <pose>8.352957725524902 -68.43144226074219 -1.5245904922485352 0.0 0.0 -0.42301706699517405</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.053</name>
+      <uri>model://conifer</uri>
+      <pose>9.467671394348145 -70.79512023925781 -1.5344427824020386 0.0 0.0 4.078004856518964</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.051</name>
+      <uri>model://conifer</uri>
+      <pose>2.257941722869873 -69.48268127441406 -3.4932985305786133 0.0 0.0 3.9013454236586136</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.050</name>
+      <uri>model://conifer</uri>
+      <pose>-1.4530504941940308 -62.27644348144531 -4.344453811645508 0.0 0.0 -0.682576179427913</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.045</name>
+      <uri>model://conifer</uri>
+      <pose>-6.643797874450684 -53.48162078857422 0.4668741822242737 0.0 0.0 -0.8240599093254501</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.044</name>
+      <uri>model://conifer</uri>
+      <pose>-7.108498573303223 -60.499629974365234 -4.918794631958008 0.0 0.0 -1.0296506913711876</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.042</name>
+      <uri>model://conifer</uri>
+      <pose>-12.319280624389648 -68.99127197265625 -2.8146486282348633 0.0 0.0 3.308588825158027</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.041</name>
+      <uri>model://conifer</uri>
+      <pose>-12.540493965148926 -16.299165725708008 14.035496711730957 0.0 0.0 2.9227053041960116</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.038</name>
+      <uri>model://conifer</uri>
+      <pose>-12.062889099121094 3.9663498401641846 14.5084228515625 0.0 0.0 2.506892227328</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.035</name>
+      <uri>model://conifer</uri>
+      <pose>-4.920063495635986 10.406118392944336 17.036632537841797 0.0 0.0 2.0355966309160647</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.033</name>
+      <uri>model://conifer</uri>
+      <pose>-6.433839321136475 14.271265029907227 15.642351150512695 0.0 0.0 -0.6396339229742996</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.032</name>
+      <uri>model://conifer</uri>
+      <pose>-13.485723495483398 13.13528060913086 14.07787799835205 0.0 0.0 -0.30498197678755057</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.030</name>
+      <uri>model://conifer</uri>
+      <pose>-4.893696308135986 16.86904525756836 15.265060424804688 0.0 0.0 -0.3689292875214605</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.029</name>
+      <uri>model://conifer</uri>
+      <pose>-5.824979782104492 17.275409698486328 15.11468505859375 0.0 0.0 2.5138337644858457</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.027</name>
+      <uri>model://conifer</uri>
+      <pose>-10.082426071166992 25.483531951904297 13.66938591003418 0.0 0.0 -0.275624445639183</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.026</name>
+      <uri>model://conifer</uri>
+      <pose>-8.027950286865234 25.28095245361328 13.411280632019043 0.0 0.0 4.140401952942927</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.023</name>
+      <uri>model://conifer</uri>
+      <pose>-11.353219032287598 27.257122039794922 13.650458335876465 0.0 0.0 -1.761873722340421</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.021</name>
+      <uri>model://conifer</uri>
+      <pose>-12.950278282165527 42.259639739990234 10.110674858093262 0.0 0.0 -0.015586133676019465</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.020</name>
+      <uri>model://conifer</uri>
+      <pose>35.406028747558594 -80.38262939453125 8.279419898986816 0.0 0.0 3.4871342986345977</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.019</name>
+      <uri>model://conifer</uri>
+      <pose>33.596412658691406 -76.27285766601562 8.53427791595459 0.0 0.0 2.187009922518522</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.015</name>
+      <uri>model://conifer</uri>
+      <pose>23.427295684814453 -76.44166564941406 3.043278932571411 0.0 0.0 3.8272715499934296</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.014</name>
+      <uri>model://conifer</uri>
+      <pose>22.90966796875 -77.05928039550781 2.966884136199951 0.0 0.0 -1.7585987884539565</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.013</name>
+      <uri>model://conifer</uri>
+      <pose>23.43109893798828 -78.67696380615234 2.8288488388061523 0.0 0.0 -0.8325191935265721</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.010</name>
+      <uri>model://conifer</uri>
+      <pose>29.481626510620117 -72.47071075439453 6.667043685913086 0.0 0.0 -0.5835840565288786</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.008</name>
+      <uri>model://conifer</uri>
+      <pose>28.469545364379883 -63.52601623535156 5.254965782165527 0.0 0.0 -1.50938319926422</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.006</name>
+      <uri>model://conifer</uri>
+      <pose>28.163061141967773 -70.765869140625 5.538692474365234 0.0 0.0 0.9357240078980626</pose>
+    </include>
+    
+    
+    <include>
+      <name>Conifer.002</name>
+      <uri>model://conifer</uri>
+      <pose>15.828035354614258 -67.29119110107422 1.2767643928527832 0.0 0.0 1.792928534310843</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.063</name>
+      <uri>model://rock</uri>
+      <pose>-49.29997634887695 73.10054016113281 -3.5612668991088867 0.0 0.0 -0.3610548719017084</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.061</name>
+      <uri>model://rock</uri>
+      <pose>-22.293182373046875 87.51472473144531 -7.245845794677734 0.0 0.0 0.048149294563015754</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.058</name>
+      <uri>model://rock</uri>
+      <pose>-22.208595275878906 75.66600799560547 -1.5202078819274902 0.0 0.0 3.2728917113898963</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.056</name>
+      <uri>model://rock</uri>
+      <pose>-29.255115509033203 82.78424072265625 -2.678455352783203 0.0 0.0 4.0349224673903645</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.055</name>
+      <uri>model://rock</uri>
+      <pose>63.505699157714844 83.82926940917969 -19.134159088134766 0.0 0.0 0.1545104729887048</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.054</name>
+      <uri>model://rock</uri>
+      <pose>60.855648040771484 71.8079833984375 -18.604248046875 0.0 0.0 -2.593167029617997</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.053</name>
+      <uri>model://rock</uri>
+      <pose>53.744903564453125 88.64433288574219 -14.961904525756836 0.0 0.0 -2.179703294003745</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.052</name>
+      <uri>model://rock</uri>
+      <pose>54.946250915527344 83.91384887695312 -14.961906433105469 0.0 0.0 -2.041565354853196</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.050</name>
+      <uri>model://rock</uri>
+      <pose>-78.70260620117188 23.806114196777344 -10.616765975952148 0.0 0.0 0.05251236287229366</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.046</name>
+      <uri>model://rock</uri>
+      <pose>-71.27278137207031 -63.505699157714844 -3.244274139404297 0.0 0.0 1.2756595891411595</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.043</name>
+      <uri>model://rock</uri>
+      <pose>-47.17253112792969 -38.87751007080078 7.1748127937316895 0.0 0.0 -2.1785743087154694</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.041</name>
+      <uri>model://rock</uri>
+      <pose>-52.35999298095703 -37.87699890136719 7.553524494171143 0.0 0.0 -2.1667318929348474</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.040</name>
+      <uri>model://rock</uri>
+      <pose>-50.8646125793457 -10.444467544555664 9.999934196472168 0.0 0.0 -2.8974711678380665</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.039</name>
+      <uri>model://rock</uri>
+      <pose>-56.774009704589844 54.72262954711914 -1.030592679977417 0.0 0.0 -2.9310205775288143</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.033</name>
+      <uri>model://rock</uri>
+      <pose>-36.905303955078125 -45.235511779785156 5.151148796081543 0.0 0.0 -0.601628409868209</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.026</name>
+      <uri>model://rock</uri>
+      <pose>-9.31485366821289 11.561216354370117 16.19263458251953 0.0 0.0 3.2420329125854264</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.021</name>
+      <uri>model://rock</uri>
+      <pose>38.79843521118164 58.05254364013672 -13.217910766601562 0.0 0.0 3.103120976932591</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.020</name>
+      <uri>model://rock</uri>
+      <pose>23.38106346130371 65.6131591796875 -11.639592170715332 0.0 0.0 1.5671214996388563</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.018</name>
+      <uri>model://rock</uri>
+      <pose>13.526308059692383 76.78491973876953 -10.065695762634277 0.0 0.0 -1.6375509918645412</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.016</name>
+      <uri>model://rock</uri>
+      <pose>34.934261322021484 -18.2115478515625 4.641063213348389 0.0 0.0 0.6185304773829121</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.015</name>
+      <uri>model://rock</uri>
+      <pose>40.544437408447266 -21.008405685424805 2.2363550662994385 0.0 0.0 -1.364452853475814</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.013</name>
+      <uri>model://rock</uri>
+      <pose>40.13254928588867 -16.07391357421875 1.8693015575408936 0.0 0.0 -2.3668412969850494</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.010</name>
+      <uri>model://rock</uri>
+      <pose>47.094581604003906 -47.179168701171875 7.210117340087891 0.0 0.0 -0.27627899173725945</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.009</name>
+      <uri>model://rock</uri>
+      <pose>50.64099884033203 -57.51171112060547 8.039212226867676 0.0 0.0 2.4182535927700006</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.008</name>
+      <uri>model://rock</uri>
+      <pose>32.7486457824707 -51.97863006591797 5.514969348907471 0.0 0.0 2.4442588214059273</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.007</name>
+      <uri>model://rock</uri>
+      <pose>71.18820190429688 -26.686412811279297 2.8720502853393555 0.0 0.0 4.025673505041473</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.006</name>
+      <uri>model://rock</uri>
+      <pose>58.80426788330078 -24.858642578125 4.1683855056762695 0.0 0.0 -1.0258869570199338</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.005</name>
+      <uri>model://rock</uri>
+      <pose>52.377540588378906 1.1515878438949585 -1.9894787073135376 0.0 0.0 1.4177180657214792</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.004</name>
+      <uri>model://rock</uri>
+      <pose>51.535499572753906 -3.818643569946289 -2.1234467029571533 0.0 0.0 1.8872098292818937</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.003</name>
+      <uri>model://rock</uri>
+      <pose>77.91986846923828 62.885894775390625 -11.922521591186523 0.0 0.0 1.9123624545707707</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.002</name>
+      <uri>model://rock</uri>
+      <pose>74.153076171875 60.072898864746094 -11.307841300964355 0.0 0.0 -0.518551859115107</pose>
+    </include>
+    
+    
+    <include>
+      <name>Rock.001</name>
+      <uri>model://rock</uri>
+      <pose>14.045330047607422 42.701351165771484 0.014155134558677673 0.0 0.0 -0.4831218251564784</pose>
+    </include>
+    
+    <!--
+    <include>
+      <name>Shoe</name>
+      <uri>model://Cube.002</uri>
+      <pose>71.41931915283203 -13.071528434753418 2.6352181434631348 0.0 -0.0 0.0</pose>
+    </include>
+    -->
+    
+    <include>
+      <name>AvalancheVictim.002</name>
+      <uri>model://avalanche_victim</uri>
+      <pose>83.6379623413086 -11.121040344238281 7.39618444442749 0.0 -0.0 0.0</pose>
+    </include>
+    
+    
+    <include>
+      <name>AvalancheVictim.001</name>
+      <uri>model://avalanche_victim</uri>
+      <pose>51.86360168457031 58.300437927246094 -13.363946914672852 0.0 -0.0 0.0</pose>
+    </include>
+    
+    
+    <include>
+      <name>lost_victim.003</name>
+      <uri>model://lost_victim</uri>
+      <pose>46.47050094604492 93.89409637451172 -14.94842529296875 0.0 -0.0 1.7265684604644775</pose>
+    </include>
+    
+    
+    <include>
+      <name>lost_victim.002</name>
+      <uri>model://lost_victim</uri>
+      <pose>59.561065673828125 -19.239892959594727 3.979928731918335 0.0 -0.0 0.0</pose>
+    </include>
+    
+    
+    <include>
+      <name>lost_victim.001</name>
+      <uri>model://lost_victim</uri>
+      <pose>-15.96411418914795 21.490915298461914 13.020235061645508 -0.038070499897003174 0.4153600037097931 -2.2900054454803467</pose>
+    </include>
+    
+    
+    <include>
+      <name>lost_victim</name>
+      <uri>model://lost_victim</uri>
+      <pose>-13.173432350158691 -10.367545127868652 13.994397163391113 0.0 -0.0 0.0</pose>
+    </include>
+    
+    
+    <include>
+      <name>AvalancheVictim</name>
+      <uri>model://avalanche_victim</uri>
+      <pose>62.644569396972656 25.021011352539062 -1.521758794784546 0.0 -0.0 0.0</pose>
+    </include>
+    
+    
+    <include>
+      <name>Ski2</name>
+      <uri>model://skis</uri>
+      <pose>63.26083755493164 25.056472778320312 -0.8255566954612732 0.3452059030532837 0.36137109994888306 -4.06899356842041</pose>
+    </include>
+    
+    
+    <include>
+      <name>Ski</name>
+      <uri>model://skis</uri>
+      <pose>63.07988739013672 24.817398071289062 -1.0444105863571167 1.7561566829681396 -0.0 -2.244967222213745</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon.005</name>
+      <uri>model://pylon</uri>
+      <pose>-15.2996187210083 -1.9623785018920898 12.70404052734375 0.0 -0.0 0.02496028132736683</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon.004</name>
+      <uri>model://pylon</uri>
+      <pose>-2.270540237426758 7.577995300292969 16.145389556884766 0.0 -0.0 -1.2191201448440552</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon.003</name>
+      <uri>model://pylon</uri>
+      <pose>20.65705680847168 2.968623399734497 5.210490703582764 0.0 -0.0 -1.2191201448440552</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon.002</name>
+      <uri>model://pylon</uri>
+      <pose>52.34560775756836 5.317626953125 -3.568678379058838 0.0 -0.0 -0.7977479100227356</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon.001</name>
+      <uri>model://pylon</uri>
+      <pose>74.17167663574219 43.29271697998047 -9.011053085327148 0.0 -0.0 -0.7977479100227356</pose>
+    </include>
+    
+    
+    <include>
+      <name>Cabin</name>
+      <uri>model://cabin</uri>
+      <pose>-15.415206909179688 -10.65507984161377 14.040825843811035 0.0 -0.0 0.2599726617336273</pose>
+    </include>
+    
+    
+    <include>
+      <name>Cabin_broken</name>
+      <uri>model://cabin_broken</uri>
+      <pose>47.46967697143555 10.965880393981934 -2.2373294830322266 0.0 -0.0 0.9782958626747131</pose>
+    </include>
+    
+    
+    <include>
+      <name>Bench_broken</name>
+      <uri>model://bench_broken</uri>
+      <pose>50.302757263183594 60.62278747558594 -14.798428535461426 6.133472063574175e-10 0.3187488913536072 -2.737746477127075</pose>
+    </include>
+    
+    
+    <include>
+      <name>Bench</name>
+      <uri>model://bench</uri>
+      <pose>59.24348449707031 -20.058692932128906 3.8210206031799316 0.0 -0.0 -4.135028839111328</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon</name>
+      <uri>model://pylon</uri>
+      <pose>93.92854309082031 77.9093246459961 -13.27497673034668 0.0 -0.0 -0.7977479100227356</pose>
+    </include>
+    
+    
+    <include>
+      <name>Pylon_broken</name>
+      <uri>model://pylon_broken</uri>
+      <pose>63.54434585571289 24.55428695678711 -2.106257438659668 0.0 -0.0 -0.23951448500156403</pose>
+    </include>
+    
+        
+  </world>
+</sdf>

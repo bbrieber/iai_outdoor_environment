@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<launch>
+
+  <arg name="spawn_wasps" default="true"/>
+  <arg name="spawn_rover" default="true"/>
+  <arg name="spawn_rmax" default="false"/>
+  
+  <!--
+  <arg name="spawn_box" default="false"/>
+  
+  DO NOT
+  <include file="$(find iai_outdoor_environment)/launch/gazebo_sim.launch"/>
+  -->
+
+  <group ns="rmax" if="$(arg spawn_rmax)" >
+    
+      <include file="$(find iai_rescue_rmax)/launch/spawn_rmax.launch">
+      <arg name="tf_prefix" default="rmax"/>
+      
+      <arg name="name" default="rmax"/>
+	    <arg name="x" value="-32.743"/>
+	    <arg name="y" value="-18.694"/>
+	    <arg name="z" value="33"/>
+      </include>  
+  </group>
+  
+  <group if="$(arg spawn_wasps)">
+    
+    <group ns="wasp_1">
+	<include file="$(find iai_rescue_quadrotor)/launch/spawn_wasp.launch">
+	<arg name="tf_prefix" default="wasp_1"/>
+	<arg name="name" default="wasp_1"/>
+	      <arg name="x" value="-23.7304"/>
+	      <arg name="y" value="-18.5801"/>
+	      <arg name="z" value="14.0355"/>
+	</include>  
+    </group>
+    <group ns="wasp_2">
+	<include file="$(find iai_rescue_quadrotor)/launch/spawn_wasp.launch">
+	<arg name="tf_prefix" default="wasp_2"/>
+	<arg name="name" default="wasp_2"/>
+	      <arg name="x" value="-28.5313"/>
+	      <arg name="y" value="-20.6118"/>
+	      <arg name="z" value="13.9444"/>
+	</include>  
+    </group>
+  </group>
+  <!--
+  <group ns="box" if="$(arg spawn_box)">
+      <include file="$(find iai_sherpa_box)/launch/spawn_box.launch">
+      <arg name="tf_prefix" default="box"/>
+      <arg name="name" default="box"/>
+	    <arg name="x" value="69.7057"/>
+	    <arg name="y" value="-40.5496"/>
+	    <arg name="z" value="25.7687"/>
+      </include>  
+  </group>
+  
+  -->
+  <group ns="donkey" if="$(arg spawn_rover)">
+      <include file="$(find iai_sherpa_donkey)/launch/spawn_donkey.launch">
+      <arg name="tf_prefix" default="donkey"/>
+      <arg name="name" default="donkey"/>
+	    <arg name="x" value="-26.929"/>
+	    <arg name="y" value="-15.3826"/>
+	    <arg name="z" value="14.0378"/>
+      </include>  
+  </group>
+</launch>
