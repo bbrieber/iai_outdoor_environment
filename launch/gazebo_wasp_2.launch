@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <group ns="wasp_2">
+      <!--
+	<include file="$(find iai_rescue_quadrotor)/launch/spawn_wasp.launch">
+	<arg name="tf_prefix" default="wasp_2"/>
+	<arg name="name" default="wasp_2"/>
+	      <arg name="x" value="-28.5313"/>
+	      <arg name="y" value="-20.6118"/>
+	      <arg name="z" value="13.9444"/>
+	</include>  
+    </group>
+      -->
+    <include file="$(find iai_rescue_quadrotor)/launch/spawn_simple_wasp.launch">
+	  
+      <arg name="model" value="$(find iai_rescue_quadrotor)/urdf/simple_quadrotor.xacro"/>
+	<arg name="tf_prefix" default="wasp_2"/>
+	<arg name="name" default="wasp_2"/>
+	      <arg name="x" value="-28.5313"/>
+	      <arg name="y" value="-20.6118"/>
+	      <arg name="z" value="13.9444"/>
+	</include>  
+    </group>
+</launch>
