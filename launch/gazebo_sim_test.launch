@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<launch>
+  <!--
+  
+  -->
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <!--
+    <arg name="world_name" value="$(find iai_outdoor_environment)/worlds/galtelli.world"/>
+    -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+    <arg name="extra_client_args" value="-g /home/bender/work/ros/iai_rescue/devel/lib/libiai_operator_vis.so"/>
+  </include>
+
+</launch>
