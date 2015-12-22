@@ -14,7 +14,8 @@
       -->
 	  
       <include file="$(find iai_rescue_rmax)/launch/spawn_rmax.launch">
-      <arg name="tf_prefix" default="rmax"/><arg name="name" default="wasp_2"/>
+	<arg name="tf_prefix" default="rmax"/>
+	<arg name="name" default="rmax"/>
 	      <arg name="x" value="-28.5313"/>
 	      <arg name="y" value="-20.6118"/>
 	      <arg name="z" value="13.9444"/>

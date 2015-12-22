@@ -2397,6 +2397,8 @@
     </include>
     -->
     
+    
+    <!--
     <include>
       <name>AvalancheVictim.002</name>
       <uri>model://avalanche_victim</uri>
@@ -2438,7 +2440,7 @@
       <pose>-13.173432350158691 -10.367545127868652 13.994397163391113 0.0 -0.0 0.0</pose>
     </include>
     
-    
+    -->   
     <include>
       <name>AvalancheVictim</name>
       <uri>model://avalanche_victim</uri>
