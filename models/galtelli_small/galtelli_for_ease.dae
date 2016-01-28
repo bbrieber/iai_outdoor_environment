@@ -11,6 +11,7 @@
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_lights>
+<!--
     <light id="Hemi-light" name="Hemi">
       <technique_common>
         <ambient>
@@ -141,6 +142,7 @@
         </technique>
       </extra>
     </light>
+-->
   </library_lights>
   <library_images>
     <image id="Map_diffuse_png" name="Map_diffuse_png">
