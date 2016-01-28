@@ -10,8 +10,8 @@
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_lights>
-<!--
+<!--  <library_lights>
+
     <light id="Hemi-light" name="Hemi">
       <technique_common>
         <ambient>
@@ -142,8 +142,8 @@
         </technique>
       </extra>
     </light>
--->
   </library_lights>
+-->
   <library_images>
     <image id="Map_diffuse_png" name="Map_diffuse_png">
       <init_from>Map_diffuse.png</init_from>
@@ -257,6 +257,7 @@
           </bind_material>
         </instance_geometry>
       </node>
+<!--
       <node id="Hemi" name="Hemi" type="NODE">
         <matrix sid="transform">0.9884666 0.1025472 -0.1114359 0 -0.1264425 0.9638254 -0.2346334 -72.9295 0.08334374 0.2460175 0.9656755 138.5803 0 0 0 1</matrix>
         <instance_light url="#Hemi-light"/>
@@ -265,6 +266,7 @@
         <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 161.6436 0 0 0 1</matrix>
         <instance_light url="#Sun-light"/>
       </node>
+-->
     </visual_scene>
   </library_visual_scenes>
   <scene>
