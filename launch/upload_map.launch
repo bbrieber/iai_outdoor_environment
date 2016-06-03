@@ -17,7 +17,13 @@
   <node pkg="tf" type="static_transform_publisher" name="map_link_broadcaster" 
     args="0.0 0.0 0. 0.0 0. 0. /map /galtelli/world 200">
   </node>
-  <arg
+  <node pkg="robot_state_chain_publisher" type="state_chain_publisher"
+    name="galtelli_state_publisher" output="screen">
+    <param name="tf_prefix" value="/galtelli"/>
+    <param name="publish_frequency" value="2"/>
+    <remap from="robot_description" to="galtelli_description" />
+  </node>
+  <!--arg
     name="gui"
     default="True" />
   <param
@@ -34,7 +40,7 @@
     type="state_publisher" >
     <param name="tf_prefix" value="galtelli"/>
     <remap from="robot_description" to="galtelli_description" />
-  </node>
+  </node-->
   <!--
   <node pkg="robot_state_chain_publisher" type="state_chain_publisher"
     name="room_state_publisher" output="screen">
